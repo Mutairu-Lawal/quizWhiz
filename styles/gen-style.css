@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+button,
+.button {
+  display: inline-block;
+  margin: 0.25rem 0.125rem;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em 1.75em;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+body {
+  min-height: 100dvh;
+  font-size: 1rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
