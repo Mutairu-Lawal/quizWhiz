@@ -1,10 +1,10 @@
-const displayName = document.querySelector(".js-quiz-type");
-const questionsContainer = document.querySelector(".js-questions-container");
+const displayName = document.querySelector('.js-quiz-type');
+const questionsContainer = document.querySelector('.js-questions-container');
 let html;
 
-const userDetails = JSON.parse(localStorage.getItem("user-details"));
+const userDetails = JSON.parse(localStorage.getItem('userObject'));
 
-let { time, Question, ["new-subject"]: newSubject, incorrect } = userDetails;
+let { time, Question, ['new-subject']: newSubject, incorrect } = userDetails;
 
 const correctArray = [];
 const incorrectArray = [];
@@ -16,11 +16,11 @@ const questions = Question;
 displayName.innerHTML = `${questionName} Result`;
 questionsContainer.innerHTML = renderQuestion();
 
-const questionContainer = document.querySelectorAll(".js-question-container");
+const questionContainer = document.querySelectorAll('.js-question-container');
 
 for (let i = 0; i < questions.length; i++) {
   const { answerId, choice } = questions[i];
-  let inputs = questionContainer[i].querySelectorAll("input");
+  let inputs = questionContainer[i].querySelectorAll('input');
 
   inputs.forEach((input) => {
     if (input.id === answerId) {
@@ -40,7 +40,7 @@ for (let i = 0; i < questions.length; i++) {
 }
 
 function renderQuestion() {
-  let html = "";
+  let html = '';
 
   questions.forEach((question, index) => {
     const {
@@ -190,23 +190,23 @@ function renderQuestion() {
 }
 
 correctArray.forEach((parent) => {
-  parent.style.backgroundColor = "#008000";
-  parent.style.color = "#fff";
-  parent.style.border = "2px solid lightgreen";
-  let lables = parent.querySelectorAll("label");
+  parent.style.backgroundColor = '#008000';
+  parent.style.color = '#fff';
+  parent.style.border = '2px solid lightgreen';
+  let lables = parent.querySelectorAll('label');
 
   lables.forEach((label) => {
-    label.style.color = "white";
+    label.style.color = 'white';
   });
 });
 
 incorrectArray.forEach((parent) => {
-  parent.style.backgroundColor = "red";
-  parent.style.color = "#fff";
-  parent.style.border = "2px solid darkred";
-  let lables = parent.querySelectorAll("label");
+  parent.style.backgroundColor = 'red';
+  parent.style.color = '#fff';
+  parent.style.border = '2px solid darkred';
+  let lables = parent.querySelectorAll('label');
 
   lables.forEach((label) => {
-    label.style.color = "white";
+    label.style.color = 'white';
   });
 });
