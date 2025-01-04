@@ -1,4 +1,4 @@
-import { comments } from "../utils/comments.js";
+import { comments } from '../utils/comments.js';
 import {
   hardQuestions,
   mathsQuestions,
@@ -6,32 +6,32 @@ import {
   englishQuestions,
   defaultQuestions,
   sports,
-} from "../data/questions.js";
+} from '../data/questions.js';
 
-import { stopTimer, checkTime, startTimer, clearData } from "../utils/time.js";
+import { stopTimer, checkTime, startTimer, clearData } from '../utils/time.js';
 
-const backBtn = document.querySelector(".js-back-btn");
-const nextBtn = document.querySelector(".js-next-btn");
-const navigationBtns = document.querySelectorAll(".js-navigation button");
+const backBtn = document.querySelector('.js-back-btn');
+const nextBtn = document.querySelector('.js-next-btn');
+const navigationBtns = document.querySelectorAll('.js-navigation button');
 
-let subject = localStorage.getItem("quizWhiz-user-data") || "General Knowledge";
+let subject = localStorage.getItem('quizWhiz-user-data') || 'General Knowledge';
 
 let relatedQuestions;
 
 switch (subject) {
-  case "Hard Mode":
+  case 'Hard Mode':
     relatedQuestions = hardQuestions;
     break;
-  case "Mathematics":
+  case 'Mathematics':
     relatedQuestions = mathsQuestions;
     break;
-  case "Science":
+  case 'Science':
     relatedQuestions = generalScience;
     break;
-  case "English":
+  case 'English':
     relatedQuestions = englishQuestions;
     break;
-  case "Sport":
+  case 'Sport':
     relatedQuestions = sports;
     break;
   default:
@@ -46,37 +46,51 @@ let i = 0;
 const totalQuestion = questions.length;
 const questionIndex = questions.length - 1;
 
-let user = {
-  userName: "Guest",
+let user = JSON.parse(localStorage.getItem('userObject')) || {
+  name: null,
   Question: [...questions],
   correct: [],
   incorrect: [],
   unanswered: [],
-  grade: "",
-  Comment: "",
+  grade: '',
+  Comment: '',
   time: null,
-  ["new-subject"]: subject,
+  ['new-subject']: subject,
 };
+
+while (!user.name) {
+  let userInput = prompt('Please enter your name:');
+
+  // validating the userInput
+  if (!userInput) {
+    alert('Input cannot be empty. Please enter your name.');
+  } else if (/^\d/.test(userInput)) {
+    alert('Name cannot start with a number. Please try again.');
+  } else {
+    user.name = userInput;
+    saveUserDetails();
+  }
+}
 
 renderQuestion();
 
 navigationBtns.forEach((btn) => {
-  btn.addEventListener("click", (index) => {
-    if (btn.innerHTML === "Next") {
+  btn.addEventListener('click', (index) => {
+    if (btn.innerHTML === 'Next') {
       i++;
       renderQuestion();
 
       let nextIndex = i;
       if (nextIndex++ === questionIndex) {
-        btn.innerHTML = "Finish";
+        btn.innerHTML = 'Finish';
       }
-    } else if (btn.innerHTML === "Back") {
+    } else if (btn.innerHTML === 'Back') {
       i--;
       renderQuestion();
       if (i < questionIndex) {
-        nextBtn.innerHTML = "Next";
+        nextBtn.innerHTML = 'Next';
       }
-    } else if (btn.innerHTML === "Submit" || btn.innerHTML === "Finish") {
+    } else if (btn.innerHTML === 'Submit' || btn.innerHTML === 'Finish') {
       stopTimer();
 
       let viewedAll;
@@ -96,10 +110,10 @@ navigationBtns.forEach((btn) => {
 
       if (!viewedAll) {
         respond = confirm(
-          "You still have unanswered questions\nAre you sure?\nokay=yes\ncancel=No"
+          'You still have unanswered questions\nAre you sure?\nokay=yes\ncancel=No'
         );
       } else {
-        respond = confirm("Are you sure you want to submit?");
+        respond = confirm('Are you sure you want to submit?');
       }
 
       if (respond) {
@@ -115,10 +129,10 @@ navigationBtns.forEach((btn) => {
 
 function renderResult() {
   const today = dayjs();
-  const date = today.format("MMMM DD, YYYY");
+  const date = today.format('MMMM DD, YYYY');
   calculateResult();
 
-  let { correct, incorrect, unanswered, grade, Comment, userName, time } = user;
+  let { correct, incorrect, unanswered, grade, Comment, name, time } = user;
 
   const scored = correct.length;
   const missed = incorrect.length;
@@ -136,7 +150,7 @@ function renderResult() {
           />
           <div class="detail">
             <h3 class="certificate-heading">Certificate of Achievement</h3>
-            <p class="bold">${userName}</p>
+            <p class="bold">${name}</p>
             <p>Got a Score of</p>
             <p>${scored}/${totalQuestion} (${grade}%)</p>
             <p>On</p>
@@ -222,8 +236,8 @@ function renderResult() {
       </div>
     </div>`;
 
-  document.querySelector("button").addEventListener("click", () => {
-    open("result-page.html", "_blank");
+  document.querySelector('button').addEventListener('click', () => {
+    open('result-page.html', '_blank');
     location.reload();
   });
 
@@ -307,7 +321,7 @@ function renderQuestion() {
   } = pickedQuestion;
 
   document.querySelector(
-    ".js-question-container"
+    '.js-question-container'
   ).innerHTML = `<div class="display section min-sec">
           <div class="info">
             <h3>${quizType}</h3>
@@ -341,9 +355,9 @@ function renderQuestion() {
         </div>`;
 
   if (i === 0) {
-    backBtn.innerHTML = "Submit";
+    backBtn.innerHTML = 'Submit';
   } else {
-    backBtn.innerHTML = "Back";
+    backBtn.innerHTML = 'Back';
   }
 
   getAllOptions();
@@ -363,7 +377,7 @@ function getAllOptions() {
   const options = document.querySelectorAll("input[type='radio']");
 
   options.forEach((option) => {
-    option.addEventListener("click", (e) => {
+    option.addEventListener('click', (e) => {
       let selectedId = e.target.id;
 
       questions[i].choice = selectedId;
@@ -385,7 +399,7 @@ function uniqueArray(totalQuestion, arrayLength) {
 }
 
 function generateRandomQuestion(questionType) {
-  const numbers = uniqueArray(20, questionType.length);
+  const numbers = uniqueArray(15, questionType.length);
 
   let arr = [];
 
@@ -398,5 +412,5 @@ function generateRandomQuestion(questionType) {
 }
 
 function saveUserDetails() {
-  localStorage.setItem("user-details", JSON.stringify(user));
+  localStorage.setItem('userObject', JSON.stringify(user));
 }

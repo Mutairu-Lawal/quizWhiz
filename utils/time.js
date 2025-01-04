@@ -20,9 +20,9 @@ function stopwatch() {
     }
   }
 
-  hours = String(hours).padStart(2, "0");
-  minutes = String(minutes).padStart(2, "0");
-  seconds = String(seconds).padStart(2, "0");
+  hours = String(hours).padStart(2, '0');
+  minutes = String(minutes).padStart(2, '0');
+  seconds = String(seconds);
 }
 
 export function stopTimer() {
@@ -31,27 +31,27 @@ export function stopTimer() {
 }
 
 export function checkTime(getUser) {
-  if (hours !== "00") {
-    getUser.time = `${hours} ${pluralize(hours, "hour")} ${minutes} ${pluralize(
+  if (hours !== '00') {
+    getUser.time = `${hours} ${pluralize(hours, 'hour')} ${minutes} ${pluralize(
       minutes,
-      "minute"
-    )} ${seconds} ${pluralize(seconds, "second")}`;
-  } else if (minutes !== "00") {
+      'minute'
+    )} ${seconds} ${pluralize(seconds, 'second')}`;
+  } else if (minutes !== '00') {
     getUser.time = `${minutes} ${pluralize(
       minutes,
-      "minute"
-    )} ${seconds} ${pluralize(seconds, "second")}`;
+      'minute'
+    )} ${seconds} ${pluralize(seconds, 'second')}`;
   } else {
-    getUser.time = `${seconds} ${pluralize(seconds, "second")}`;
+    getUser.time = `${seconds} ${pluralize(seconds, 'second')}`;
   }
 }
 
 function pluralize(value, word) {
-  return value <= "01" ? word : word + "s";
+  return value <= '01' ? word : word + 's';
 }
 
 export function clearData() {
-  localStorage.removeItem("quizWhiz-user-data");
+  localStorage.removeItem('quizWhiz-user-data');
 
   let timer = null;
   let isRunning = false;
