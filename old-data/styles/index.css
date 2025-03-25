@@ -105,7 +105,7 @@ nav {
 }
 
 .t-l::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -187,13 +187,13 @@ nav {
 
 .accordion-button::after {
   background-image: none;
-  content: "\2b";
+  content: '\2b';
   font-family: fontawesome;
 }
 
 .accordion-button:not(.collapsed)::after {
   background-image: none;
-  content: "\f068";
+  content: '\f068';
 }
 
 .store {

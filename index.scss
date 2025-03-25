@@ -1,0 +1,256 @@
+@use 'variables';
+
+@font-face {
+  font-family: inter-black;
+  src: url(../Google-font/inter-font/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: inter-medium;
+  src: url(../Google-font/inter-font/Inter-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: variables.$font-base;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 600;
+}
+
+a {
+  transition: variables.$transition;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-brand:hover {
+  color: variables.$brand;
+}
+
+.c-img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-brand {
+  color: variables.$brand;
+}
+
+.bg-brand {
+  background-color: variables.$brand;
+  color: variables.$pry-color;
+}
+
+.section-padding {
+  padding: 100px 0px 80px;
+}
+
+.c-shadow {
+  box-shadow: 2px 2px 5px #000000;
+}
+
+.c-border-color {
+  border-color: variables.$brand;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: inter-black;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+header {
+  nav {
+    box-shadow: variables.$box-shadow;
+  }
+  .nav-link {
+    font-weight: bolder;
+    margin-right: 1em;
+    color: variables.$pry-color;
+  }
+}
+
+main {
+  #hero-section {
+    @media (min-width: 992px) {
+      @keyframes slide {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(-50px);
+        }
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          /* transform: translateY(0); */
+          transform: translate(-50px, 0);
+        }
+
+        50% {
+          transform: translate(-50px, -20px);
+        }
+      }
+      .slide-bounde-animinate {
+        animation: slide 1s ease-in-out forwards,
+          bounce 3s ease-in-out 1s infinite;
+      }
+    }
+  }
+  #user-story {
+    .c-circle {
+      margin: auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      margin-bottom: 4px;
+      overflow: hidden;
+    }
+  }
+  #socials-section {
+    background-color: #ffdd00;
+    .socials {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+
+      .circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .facebook {
+        background-color: #1877f2;
+      }
+
+      .twitter {
+        background-color: #1da1f2;
+      }
+
+      .insta {
+        background-color: #dd2a7b;
+      }
+
+      .tiktok {
+        background-color: #fe2c55;
+      }
+
+      i {
+        color: #fff;
+        font-size: xx-large;
+      }
+    }
+  }
+
+  #FAQs {
+    .accordion-button {
+      background-color: variables.$brand;
+      color: variables.$pry-color;
+
+      &:not(.collapse) {
+        background-color: variables.$brand;
+        color: variables.$pry-color;
+      }
+
+      &::after {
+        background-image: none;
+        content: '\2b';
+        font-family: fontawesome;
+      }
+      &:not(.collapsed)::after {
+        background-image: none;
+        content: '\f068';
+      }
+    }
+  }
+
+  #stores {
+    .store {
+      width: 250px;
+      height: 50px;
+      padding-left: 1em;
+      display: flex;
+      align-items: center;
+      justify-items: end;
+      cursor: pointer;
+
+      .store-logo {
+        height: 100%;
+        width: 60px;
+        padding: 4px;
+        display: inline-flex;
+      }
+    }
+  }
+
+  #contact {
+    .bg-brand {
+      &:hover {
+        background-color: variables.$brand;
+        color: variables.$pry-color;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: variables.$dark;
+  color: variables.$pry-color;
+
+  a {
+    color: variables.$pry-color;
+  }
+
+  .socials-link a {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 3px solid variables.$pry-color;
+    margin-right: 8px;
+  }
+}
