@@ -1,4 +1,4 @@
-import { comments } from '../utils/comments.js';
+import { comments } from '../old-data/utils/comments.js';
 import {
   hardQuestions,
   mathsQuestions,
@@ -8,7 +8,7 @@ import {
   sports,
 } from '../data/questions.js';
 
-import { stopTimer, checkTime, startTimer, clearData } from '../utils/time.js';
+import { stopTimer, checkTime, startTimer, clearData } from '../old-data/utils/time.js';
 
 const backBtn = document.querySelector('.js-back-btn');
 const nextBtn = document.querySelector('.js-next-btn');
