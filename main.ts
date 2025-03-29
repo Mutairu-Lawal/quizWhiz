@@ -8,7 +8,7 @@ thisYear.textContent = currentYear.toString();
 // add eventlistener for page routing
 quizLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
-    const quizName = link.querySelector('h1')?.innerHTML;
+    const quizName = link.querySelector('p')?.innerHTML;
     if (quizName) openQuizPage(e, quizName);
   });
 });

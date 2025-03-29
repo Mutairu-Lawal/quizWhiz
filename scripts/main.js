@@ -9,7 +9,7 @@ thisYear.textContent = currentYear.toString();
 quizLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
         var _a;
-        const quizName = (_a = link.querySelector('h1')) === null || _a === void 0 ? void 0 : _a.innerHTML;
+        const quizName = (_a = link.querySelector('p')) === null || _a === void 0 ? void 0 : _a.innerHTML;
         if (quizName)
             openQuizPage(e, quizName);
     });
