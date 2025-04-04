@@ -1,51 +1,84 @@
 import { comments } from './utils/comments';
-import { hardQuestions, mathsQuestions, generalScience, englishQuestions, defaultQuestions, sports, } from './questionsJs/questions';
-const backBtn = document.querySelector('.js-back-btn');
-const nextBtn = document.querySelector('.js-next-btn');
-const navigationBtns = document.querySelectorAll('.js-navigation button');
+import {
+  hardQuestions,
+  mathsQuestions,
+  generalScience,
+  englishQuestions,
+  defaultQuestions,
+  sports,
+} from './questionsJs/questions';
+
+import {
+  stopTimer,
+  checkTime,
+  startTimer,
+  clearData,
+  returnStringValue,
+} from './utils/time';
+import { QuestionType } from './types/types';
+
+const backBtn = document.querySelector('.js-back-btn') as HTMLButtonElement;
+const nextBtn = document.querySelector('.js-next-btn') as HTMLButtonElement;
+const navigationBtns = document.querySelectorAll(
+  '.js-navigation button'
+) as NodeListOf<HTMLButtonElement>;
+
 let subject = localStorage.getItem('quizWhiz-user-data') || 'General Knowledge';
+
 const relatedQuestions = getRelatedQuestions();
+
 console.log(comments);
 // let randomQuestions = generateRandomQuestion(relatedQuestions);
+
 const questions = generateRandomQuestion(relatedQuestions);
+
 let i = 0;
 const totalQuestion = questions.length;
 const questionIndex = questions.length - 1;
-function uniqueArray(totalQuestion, arrayLength) {
-    let arr = [];
-    while (arr.length < totalQuestion) {
-        const randNum = Math.floor(Math.random() * arrayLength);
-        if (!arr.includes(randNum)) {
-            arr.push(randNum);
-        }
+
+function uniqueArray(totalQuestion: number, arrayLength: number) {
+  let arr: number[] = [];
+
+  while (arr.length < totalQuestion) {
+    const randNum = Math.floor(Math.random() * arrayLength);
+    if (!arr.includes(randNum)) {
+      arr.push(randNum);
     }
-    return arr;
+  }
+
+  return arr;
 }
-function generateRandomQuestion(questionType) {
-    const numbers = uniqueArray(15, questionType.length);
-    let arr = [];
-    numbers.forEach((number) => {
-        const question = questionType[number];
-        arr.push(JSON.parse(JSON.stringify(questionType[number])));
-    });
-    return arr;
+
+function generateRandomQuestion(questionType: QuestionType[]) {
+  const numbers = uniqueArray(15, questionType.length);
+
+  let arr = [];
+
+  numbers.forEach((number) => {
+    const question = questionType[number];
+    arr.push(JSON.parse(JSON.stringify(questionType[number])));
+  });
+
+  return arr;
 }
+
 function getRelatedQuestions() {
-    switch (subject) {
-        case 'Hard Mode':
-            return hardQuestions;
-        case 'Mathematics':
-            return mathsQuestions;
-        case 'Science':
-            return generalScience;
-        case 'English':
-            return englishQuestions;
-        case 'Sport':
-            return sports;
-        default:
-            return defaultQuestions;
-    }
+  switch (subject) {
+    case 'Hard Mode':
+      return hardQuestions;
+    case 'Mathematics':
+      return mathsQuestions;
+    case 'Science':
+      return generalScience;
+    case 'English':
+      return englishQuestions;
+    case 'Sport':
+      return sports;
+    default:
+      return defaultQuestions;
+  }
 }
+
 // let user = JSON.parse(localStorage.getItem('userObject')) || {
 //   name: null,
 //   Question: [...questions],
@@ -57,8 +90,10 @@ function getRelatedQuestions() {
 //   time: null,
 //   ['new-subject']: subject,
 // };
+
 // while (!user.name) {
 //   let userInput = prompt('Please enter your name:');
+
 //   // validating the userInput
 //   if (!userInput) {
 //     alert('Input cannot be empty. Please enter your name.');
@@ -69,12 +104,15 @@ function getRelatedQuestions() {
 //     saveUserDetails();
 //   }
 // }
+
 // renderQuestion();
+
 // navigationBtns.forEach((btn) => {
 //   btn.addEventListener('click', (index) => {
 //     if (btn.innerHTML === 'Next') {
 //       i++;
 //       renderQuestion();
+
 //       let nextIndex = i;
 //       if (nextIndex++ === questionIndex) {
 //         btn.innerHTML = 'Finish';
@@ -87,17 +125,22 @@ function getRelatedQuestions() {
 //       }
 //     } else if (btn.innerHTML === 'Submit' || btn.innerHTML === 'Finish') {
 //       stopTimer();
+
 //       let viewedAll;
 //       let respond;
+
 //       for (index = 0; index < questions.length; index++) {
 //         const currentIndex = index;
 //         const num = currentIndex + 1;
+
 //         if (questions[index].hasView === false) {
 //           viewedAll = false;
 //           break;
 //         }
+
 //         viewedAll = true;
 //       }
+
 //       if (!viewedAll) {
 //         respond = confirm(
 //           'You still have unanswered questions\nAre you sure?\nokay=yes\ncancel=No'
@@ -105,6 +148,7 @@ function getRelatedQuestions() {
 //       } else {
 //         respond = confirm('Are you sure you want to submit?');
 //       }
+
 //       if (respond) {
 //         stopTimer();
 //         checkTime(user);
@@ -115,14 +159,18 @@ function getRelatedQuestions() {
 //     }
 //   });
 // });
+
 // function renderResult() {
 //   const today = dayjs();
 //   const date = today.format('MMMM DD, YYYY');
 //   calculateResult();
+
 //   let { correct, incorrect, unanswered, grade, Comment, name, time } = user;
+
 //   const scored = correct.length;
 //   const missed = incorrect.length;
 //   const blank = unanswered.length;
+
 //   document.body.innerHTML = `<div class="main-container">
 //       <div class="completed-div">
 //         <p class="padding-left">Thank you for completing this quiz.</p>
@@ -220,16 +268,20 @@ function getRelatedQuestions() {
 //         </div>
 //       </div>
 //     </div>`;
+
 //   document.querySelector('button').addEventListener('click', () => {
 //     open('result-page.html', '_blank');
 //     location.reload();
 //   });
+
 //   saveUserDetails();
 //   clearData();
 // }
+
 // function calculateResult() {
 //   questions.forEach((question, index) => {
 //     const { choice, answerId, unanswered } = question;
+
 //     if (choice) {
 //       if (choice === answerId) {
 //         user.correct.push(index);
@@ -240,8 +292,11 @@ function getRelatedQuestions() {
 //       user.unanswered.push(index);
 //     }
 //   });
+
 //   user.grade = (user.correct.length / totalQuestion) * 100;
+
 //   let { grade } = user;
+
 //   user.Comment =
 //     grade <= 9
 //       ? comments[0]
@@ -281,10 +336,12 @@ function getRelatedQuestions() {
 //       ? comments[17]
 //       : comments[18];
 // }
+
 // function renderQuestion() {
 //   const activeIndex = i;
 //   let pickedQuestion = questions[activeIndex];
 //   const quizType = subject;
+
 //   let {
 //     id,
 //     questionTag,
@@ -295,6 +352,7 @@ function getRelatedQuestions() {
 //     choice,
 //     feedback,
 //   } = pickedQuestion;
+
 //   document.querySelector(
 //     '.js-question-container'
 //   ).innerHTML = `<div class="display section min-sec">
@@ -328,29 +386,38 @@ function getRelatedQuestions() {
 //             <label for="${optionDId}">${optionD}</label>
 //           </div>
 //         </div>`;
+
 //   if (i === 0) {
 //     backBtn.innerHTML = 'Submit';
 //   } else {
 //     backBtn.innerHTML = 'Back';
 //   }
+
 //   getAllOptions();
+
 //   if (!questions[i].hasView) {
 //     questions[i].hasView = true;
 //   }
+
 //   startTimer();
+
 //   if (questions[i].choice !== null) {
 //     document.querySelector(`#${questions[i].choice}`).checked = true;
 //   }
 // }
+
 // function getAllOptions() {
 //   const options = document.querySelectorAll("input[type='radio']");
+
 //   options.forEach((option) => {
 //     option.addEventListener('click', (e) => {
 //       let selectedId = e.target.id;
+
 //       questions[i].choice = selectedId;
 //     });
 //   });
 // }
+
 function saveUserDetails() {
-    localStorage.setItem('userObject', JSON.stringify(user));
+  localStorage.setItem('userObject', JSON.stringify(user));
 }
