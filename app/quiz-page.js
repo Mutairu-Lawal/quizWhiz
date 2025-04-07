@@ -24,19 +24,22 @@ const totalQuestions = questions.length;
 const questionIndex = totalQuestions - 1;
 let user = getCurrentUserData();
 
+// when the page reload reset the user choices
+resetUserChoice();
+
 function getCurrentUserData() {
   const user = localStorage.getItem('userObject');
   return user
     ? JSON.parse(user)
     : {
-        name: undefined,
+        name: '',
         Question: [...questions],
         correct: [],
         incorrect: [],
         unanswered: [],
         grade: '',
         Comment: '',
-        time: undefined,
+        time: '',
         ['new-subject']: subject,
       };
 }
@@ -122,6 +125,7 @@ function renderQuestion() {
     currentQuestionChoice.checked = true;
   }
 }
+
 navigationBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     if (btn.innerHTML === 'Next') {
@@ -302,7 +306,7 @@ function calculateResult() {
   });
 
   user.grade = (user.correct.length / totalQuestions) * 100;
-  let { grade } = user;
+  const { grade } = user;
 
   user.Comment =
     grade <= 9
@@ -389,4 +393,8 @@ function generateRandomQuestion(questionType) {
     arr.push(JSON.parse(JSON.stringify(questionType[number])));
   });
   return arr;
+}
+
+function resetUserChoice() {
+  user = { ...user, incorrect: [], correct: [], unanswered: [] };
 }
