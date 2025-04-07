@@ -41,6 +41,7 @@ function getCurrentUserData() {
       };
 }
 
+// get the user name at first login
 while (!user.name) {
   let userInput = prompt('Please enter your name:');
   // validating the userInput
@@ -53,17 +54,19 @@ while (!user.name) {
     saveUserDetails();
   }
 }
+// render the question
 renderQuestion();
+
 function renderQuestion() {
   const activeIndex = currentQuestionIndex;
-  let pickedQuestion = questions[activeIndex];
+  let currentQuestion = questions[activeIndex];
   const quizType = subject;
   let {
     id,
     questionTag,
     options: { optionA, optionB, optionC, optionD },
     optionId: { optionAId, optionBId, optionCId, optionDId },
-  } = pickedQuestion;
+  } = currentQuestion;
   questionContainer.innerHTML = `
     <div class="display section min-sec">
       <div class="info">
@@ -96,15 +99,22 @@ function renderQuestion() {
     </div>
   `;
   if (currentQuestionIndex === 0) {
-    backBtn.innerHTML = 'Submit';
+    // backBtn.innerHTML = 'Submit';
+    backBtn.classList.add('hidden');
   } else {
+    backBtn.classList.remove('hidden');
     backBtn.innerHTML = 'Back';
   }
+
+  // add event listener to all the input label
   getAllOptions();
+
+  // time the timer
+  startTimer();
+
   if (!questions[currentQuestionIndex].hasView) {
     questions[currentQuestionIndex].hasView = true;
   }
-  startTimer();
   if (questions[currentQuestionIndex].choice !== null) {
     const currentQuestionChoice = document.querySelector(
       `#${questions[currentQuestionIndex].choice}`
@@ -119,38 +129,38 @@ navigationBtns.forEach((btn) => {
       renderQuestion();
       let nextIndex = currentQuestionIndex;
       if (nextIndex++ === questionIndex) {
-        btn.innerHTML = 'Finish';
+        btn.classList.add('hidden');
       }
     } else if (btn.innerHTML === 'Back') {
       currentQuestionIndex--;
       renderQuestion();
       if (currentQuestionIndex < questionIndex) {
+        nextBtn.classList.remove('hidden');
         nextBtn.innerHTML = 'Next';
       }
     } else if (btn.innerHTML === 'Submit' || btn.innerHTML === 'Finish') {
       stopTimer();
-      let viewedAll;
-      let respond;
+      let hasViewedAll;
+      let userRespond;
 
-      for (let index = 0; index < questions.length; index++) {
-        const currentIndex = index;
-        const num = currentIndex + 1;
+      // checking if all questions has been attended to
+      for (let index = 0; index < totalQuestions; index++) {
         if (questions[index].hasView === false) {
-          viewedAll = false;
+          hasViewedAll = false;
           break;
         }
-        viewedAll = true;
+        hasViewedAll = true;
       }
 
-      if (!viewedAll) {
-        respond = confirm(
+      if (!hasViewedAll) {
+        userRespond = confirm(
           'You still have unanswered questions\nAre you sure?\nokay=yes\ncancel=No'
         );
       } else {
-        respond = confirm('Are you sure you want to submit?');
+        userRespond = confirm('Are you sure you want to submit?');
       }
 
-      if (respond) {
+      if (userRespond) {
         stopTimer();
         checkTime(user);
         renderResult();
@@ -371,7 +381,7 @@ function uniqueArray(totalQuestions, arrayLength) {
   return arr;
 }
 function generateRandomQuestion(questionType) {
-  const numbers = uniqueArray(15, questionType.length);
+  const numbers = uniqueArray(2, questionType.length);
   let arr = [];
   numbers.forEach((number) => {
     const question = questionType[number];
