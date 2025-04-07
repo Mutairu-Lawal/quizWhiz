@@ -63,10 +63,6 @@ function renderQuestion() {
     questionTag,
     options: { optionA, optionB, optionC, optionD },
     optionId: { optionAId, optionBId, optionCId, optionDId },
-    // answerId,
-    // hasView,
-    // choice,
-    // feedback,
   } = pickedQuestion;
   questionContainer.innerHTML = `
     <div class="display section min-sec">
