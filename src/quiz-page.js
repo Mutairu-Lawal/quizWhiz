@@ -1,15 +1,13 @@
-import { comments } from '../utils/comments.js';
+import { comments } from './utils/comments';
 import {
+  defaultQuestions,
+  englishQuestions,
+  generalScience,
   hardQuestions,
   mathsQuestions,
-  generalScience,
-  englishQuestions,
-  defaultQuestions,
   sports,
-} from '../data/data/questions.js';
-
-import { stopTimer, checkTime, startTimer, clearData } from '../utils/time.js';
-
+} from './questionsJs/questions';
+import { checkTime, clearData, startTimer, stopTimer } from './utils/time';
 // DOM Elements
 const backBtn = document.querySelector('.js-back-btn');
 const nextBtn = document.querySelector('.js-next-btn');

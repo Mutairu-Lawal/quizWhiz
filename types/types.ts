@@ -14,13 +14,13 @@ export type QuestionType = {
     optionDId: string;
   };
   hasView: boolean;
-  choice: undefined | string;
+  choice: null | string;
   answerId: string;
   feedback: string;
 };
 
 export interface UserData {
-  name: string;
+  name: string | undefined;
   Question: Array<QuestionType>;
   correct: [];
   incorrect: [];
