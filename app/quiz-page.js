@@ -181,9 +181,9 @@ function renderResult() {
   const blank = unanswered.length;
 
   document.body.innerHTML = `
-    <div class="main-container">
+    <div class="result-container">
       <div class="completed-div">
-        <p class="padding-left">Thank you for completing this quiz.</p>
+        <p class="padding-left text-center">Thank you for completing this quiz.</p>
       </div>
       <div class="certificate-div">
         <div class="certificate-frame">
@@ -193,11 +193,11 @@ function renderResult() {
           />
           <div class="detail">
             <h3 class="certificate-heading">Certificate of Achievement</h3>
-            <p class="bold">${name}</p>
+            <p class="bold user-name">${name}</p>
             <p>Got a Score of</p>
             <p>${scored}/${totalQuestions} (${grade}%)</p>
             <p>On</p>
-            <p class="bold">${subject} Quiz</p>
+            <p class="bold subject-title">${subject} Quiz</p>
             <p>${date}</p>
           </div>
           <div class="medal">
@@ -206,11 +206,11 @@ function renderResult() {
         </div>
       </div>
       <div class="result-details-container">
-        <p class="padding-left">Your score</p>
-        <div class="result-container">
+        <p class="padding-left">Your score :</p>
+        <div class="results-container">
           <div class="result-content">
-            <div class="title">
-              <p>Score</p>
+            <div class="title border-top">
+              <p>Scores</p>
             </div>
             <div class="details">
               <p>${scored} / ${totalQuestions}</p>
@@ -277,7 +277,8 @@ function renderResult() {
           <button class="view-answer-btn">View Answers</button>
         </div>
       </div>
-    </div>`;
+    </div>
+    `;
   (_a = document.querySelector('button'))?.addEventListener('click', () => {
     open('result-page.html', '_blank');
     location.reload();
