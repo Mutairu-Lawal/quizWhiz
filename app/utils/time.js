@@ -53,8 +53,8 @@ function pluralize(value, word) {
 export function clearData() {
   localStorage.removeItem('quizWhiz-user-data');
 
-  let timer = null;
-  let isRunning = false;
+  timer = null;
+  isRunning = false;
 
   hours = 0;
   minutes = 0;

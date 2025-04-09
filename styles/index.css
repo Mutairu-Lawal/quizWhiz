@@ -2,23 +2,10 @@
   font-family: inter-black;
   src: url(../Google-font/inter-font/Inter-Black.ttf);
 }
-
 @font-face {
   font-family: inter-medium;
   src: url(../Google-font/inter-font/Inter-Medium.ttf);
 }
-
-:root {
-  --c-dark: #212529;
-  --c-brand: #00aeff;
-  --c-brand-light: #0c8fcc;
-  --c-body: #727272;
-  --pry-color: #ffffff;
-  --c-font-base: inter-medium, sans-serif;
-  --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
-  --transition: all 0.5s ease;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +15,8 @@
 }
 
 body {
-  font-family: var(--c-font-base) !important;
+  font-family: inter-medium, sans-serif;
+  font-size: 16px;
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -49,7 +37,7 @@ h6,
 }
 
 a {
-  transition: var(--transition);
+  transition: all 0.5s ease;
 }
 
 img {
@@ -57,13 +45,23 @@ img {
   height: auto;
 }
 
+.text-brand:hover {
+  color: #004666;
+}
+
+.c-img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .text-brand {
-  color: var(--c-brand);
+  color: #004666;
 }
 
 .bg-brand {
-  background-color: var(--c-brand);
-  color: var(--pry-color);
+  background-color: #004666;
+  color: #ffffff;
 }
 
 .section-padding {
@@ -75,7 +73,7 @@ img {
 }
 
 .c-border-color {
-  border-color: var(--c-brand) !important;
+  border-color: #004666;
 }
 
 .centered {
@@ -87,39 +85,47 @@ img {
   font-family: inter-black;
 }
 
-/* NAV SECTION */
-
-nav {
-  box-shadow: var(--box-shadow);
-}
-
-.nav-link {
+.card-title {
+  font-size: x-large;
   font-weight: bolder;
-  margin-right: 1em;
-  color: var(--pry-color);
 }
 
-.t-l {
-  position: relative;
-  overflow: hidden;
-}
-
-.t-l::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: var(--transition);
-  transform: translateX(-100%);
-}
-
-.category-container .card {
+.cursor-pointer {
   cursor: pointer;
 }
 
-.c-circle {
+header nav {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+header .nav-link {
+  font-weight: bolder;
+  margin-right: 1em;
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes bounce {
+    0%, 100% {
+      /* transform: translateY(0); */
+      transform: translate(-50px, 0);
+    }
+    50% {
+      transform: translate(-50px, -20px);
+    }
+  }
+  main #hero-section .slide-bounde-animinate {
+    animation: slide 1s ease-in-out forwards, bounce 3s ease-in-out 1s infinite;
+  }
+}
+main #user-story .c-circle {
   margin: auto;
   width: 150px;
   height: 150px;
@@ -127,25 +133,16 @@ nav {
   margin-bottom: 4px;
   overflow: hidden;
 }
-
-.c-img-fluid {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.c-contact-color {
+main #socials-section {
   background-color: #ffdd00;
 }
-
-.socials {
+main #socials-section .socials {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 16px;
 }
-
-.circle {
+main #socials-section .socials .circle {
   width: 70px;
   height: 70px;
   border-radius: 100px;
@@ -154,141 +151,75 @@ nav {
   align-items: center;
   cursor: pointer;
 }
-
-.facebook {
+main #socials-section .socials .facebook {
   background-color: #1877f2;
 }
-
-.twitter {
+main #socials-section .socials .twitter {
   background-color: #1da1f2;
 }
-
-.insta {
+main #socials-section .socials .insta {
   background-color: #dd2a7b;
 }
-
-.tiktok {
+main #socials-section .socials .tiktok {
   background-color: #fe2c55;
 }
-
-.socials i {
+main #socials-section .socials i {
   color: #fff;
   font-size: xx-large;
 }
-
-.accordion-button {
-  background-color: var(--c-brand);
-  color: var(--pry-color);
+main #FAQs .accordion-button {
+  background-color: #004666;
+  color: #ffffff;
 }
-.accordion-button:not(.collapsed) {
-  background-color: var(--c-brand);
-  color: var(--pry-color);
+main #FAQs .accordion-button:not(.collapse) {
+  background-color: #004666;
+  color: #ffffff;
 }
-
-.accordion-button::after {
+main #FAQs .accordion-button::after {
   background-image: none;
-  content: "\2b";
+  content: "+";
   font-family: fontawesome;
 }
-
-.accordion-button:not(.collapsed)::after {
+main #FAQs .accordion-button:not(.collapsed)::after {
   background-image: none;
   content: "\f068";
 }
-
-.store {
+main #stores .store {
   width: 250px;
   height: 50px;
   padding-left: 1em;
   display: flex;
   align-items: center;
+  justify-items: end;
   cursor: pointer;
 }
-
-.store .store-logo {
+main #stores .store .store-logo {
   height: 100%;
   width: 60px;
   padding: 4px;
   display: inline-flex;
 }
+main #contact .bg-brand:hover {
+  background-color: #004666;
+  color: #ffffff;
+}
 
 footer {
-  background-color: var(--c-dark);
-  color: var(--pry-color);
+  background-color: #212529;
+  color: #ffffff;
 }
-
 footer a {
-  color: var(--pry-color);
+  color: #ffffff;
 }
-
-.socials-link a {
+footer .socials-link a {
   height: 40px;
   width: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  border: 3px solid var(--pry-color);
+  border: 3px solid #ffffff;
   margin-right: 8px;
 }
 
-/* hover section */
-
-.navbar-collapse .btn:hover {
-  background-color: var(--c-body);
-}
-
-.bg-brand:hover {
-  background-color: var(--c-brand);
-  color: var(--pry-color);
-}
-
-.text-brand:hover {
-  color: var(--c-brand);
-}
-
-.t-l:hover::before {
-  width: 100%;
-  height: 100%;
-  background-color: var(--c-brand);
-  transform: translateX(0%);
-  z-index: -1;
-}
-
-.t-l:hover {
-  color: var(--pry-color) !important;
-}
-
-.hover-not:hover {
-  background-color: var(--pry-color) !important;
-  color: #000000 !important;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(-50px);
-  }
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    /* transform: translateY(0); */
-    transform: translate(-50px, 0);
-  }
-
-  50% {
-    /* transform: translateY(-20px); */
-    transform: translate(-50px, -20px);
-  }
-}
-
-/* media queries */
-@media (min-width: 992px) {
-  .slide-bounde-animinate {
-    animation: slide 1s ease-in-out forwards, bounce 3s ease-in-out 1s infinite;
-  }
-}
+/*# sourceMappingURL=index.css.map */

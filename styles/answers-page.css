@@ -1,19 +1,30 @@
-.container {
+.answers-container {
   border-radius: 0px;
   box-shadow: none;
   width: 100%;
+  margin: 1em;
 }
-
-.questions {
+.answers-container .questions {
   display: flex;
   flex-direction: column;
   gap: 2em;
 }
+.answers-container .quiz-name {
+  margin-bottom: 1em;
+}
+@media (min-width: 600px) {
+  .answers-container {
+    width: 600px;
+  }
+}
 
 .question-container {
-  border: 3px solid var(--pry-color);
+  border: 3px solid #004666;
   padding: 1em;
   border-radius: 10px;
+}
+.question-container .question-number {
+  margin-bottom: 1em;
 }
 
 .question-tag {
@@ -35,6 +46,7 @@
   border-radius: 0px;
   pointer-events: none;
 }
+
 .comment-section {
   font-weight: bold;
   display: flex;
@@ -61,6 +73,7 @@ i {
 .fa-circle-check {
   color: #00ff00;
 }
+
 .yellow,
 .fa-circle-exclamation {
   color: #ffd700;
@@ -71,3 +84,5 @@ i {
     border: none;
   }
 }
+
+/*# sourceMappingURL=answers-page.css.map */

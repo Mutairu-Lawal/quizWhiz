@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/gen-style.css" />
-    <link rel="stylesheet" href="./styles/quiz-page.css" />
-    <link rel="stylesheet" href="./styles/answer.css" />
-    <title>Quiz</title>
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/quiz-page.css">
+  <title>quiz-page</title>
+</head>
+<body>
+  <div class="container">
       <div class="question-container section js-question-container"></div>
-      <div class="navigation section js-navigation">
+      <div class="navigations section js-navigation">
         <button class="prev js-back-btn">Back</button>
+        <button class="submit-btn js-submit-btn">Submit</button>
         <button class="next js-next-btn">Next</button>
       </div>
     </div>
     <!-- CUSTOM CDN -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
-    <script type="module" src="./scripts/quiz-page.js"></script>
+    <script type="module" src="./app/quiz-page.js"></script>
   </body>
+</body>
 </html>
