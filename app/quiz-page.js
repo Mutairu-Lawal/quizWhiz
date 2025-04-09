@@ -7,9 +7,7 @@ import {
   defaultQuestions,
   sports,
 } from './data/questions.js';
-
 import { stopTimer, checkTime, startTimer, clearData } from './utils/time.js';
-
 // DOM Elements
 const backBtn = document.querySelector('.js-back-btn');
 const nextBtn = document.querySelector('.js-next-btn');
@@ -23,10 +21,8 @@ let currentQuestionIndex = 0;
 const totalQuestions = questions.length;
 const questionIndex = totalQuestions - 1;
 let user = getCurrentUserData();
-
 // when the page reload reset the user choices
 resetUserChoice();
-
 function getCurrentUserData() {
   const user = localStorage.getItem('userObject');
   return user
@@ -43,7 +39,6 @@ function getCurrentUserData() {
         ['new-subject']: subject,
       };
 }
-
 // get the user name at first login
 while (!user.name) {
   let userInput = prompt('Please enter your name:');
@@ -59,7 +54,6 @@ while (!user.name) {
 }
 // render the question
 renderQuestion();
-
 function renderQuestion() {
   const activeIndex = currentQuestionIndex;
   let currentQuestion = questions[activeIndex];
@@ -125,7 +119,6 @@ function renderQuestion() {
     currentQuestionChoice.checked = true;
   }
 }
-
 navigationBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     if (btn.innerHTML === 'Next') {
@@ -385,7 +378,7 @@ function uniqueArray(totalQuestions, arrayLength) {
   return arr;
 }
 function generateRandomQuestion(questionType) {
-  const numbers = uniqueArray(2, questionType.length);
+  const numbers = uniqueArray(10, questionType.length);
   let arr = [];
   numbers.forEach((number) => {
     const question = questionType[number];
@@ -404,12 +397,13 @@ function resetUserChoice() {
 
   saveUserDetails();
 }
-let sameQuestion = [];
 
-for (let i = 0; i < defaultQuestions.length; i++) {
-  const currentQuestion = defaultQuestions[i].questionTag;
-  let count = 0;
-  defaultQuestions.forEach((q) => {
-    // q.questionTag === currentQuestion && (count += 1);
-  });
-}
+// let sameQuestion = [];
+
+// for (let i = 0; i < defaultQuestions.length; i++) {
+//   const currentQuestion = defaultQuestions[i].questionTag;
+//   let count = 0;
+//   defaultQuestions.forEach((q) => {
+//     // q.questionTag === currentQuestion && (count += 1);
+//   });
+// }

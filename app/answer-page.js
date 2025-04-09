@@ -12,7 +12,7 @@ const questionName = newSubject;
 const totalQuestion = Question.length;
 const questions = Question;
 displayName.innerHTML = `${questionName} Result`;
-questionsContainer.innerHTML = renderQuestion();
+questionsContainer.innerHTML = renderAnswers();
 const questionContainer = document.querySelectorAll('.js-question-container');
 for (let i = 0; i < questions.length; i++) {
   const { answerId, choice } = questions[i];
@@ -30,7 +30,25 @@ for (let i = 0; i < questions.length; i++) {
     }
   }
 }
-function renderQuestion() {
+correctArray.forEach((parent) => {
+  parent.style.backgroundColor = '#008000';
+  parent.style.color = '#fff';
+  parent.style.border = '2px solid lightgreen';
+  let lables = parent.querySelectorAll('label');
+  lables.forEach((label) => {
+    label.style.color = 'white';
+  });
+});
+incorrectArray.forEach((parent) => {
+  parent.style.backgroundColor = 'red';
+  parent.style.color = '#fff';
+  parent.style.border = '2px solid darkred';
+  let lables = parent.querySelectorAll('label');
+  lables.forEach((label) => {
+    label.style.color = 'white';
+  });
+});
+function renderAnswers() {
   let html = '';
   questions.forEach((question, index) => {
     const {
@@ -178,21 +196,3 @@ function renderQuestion() {
   });
   return html;
 }
-correctArray.forEach((parent) => {
-  parent.style.backgroundColor = '#008000';
-  parent.style.color = '#fff';
-  parent.style.border = '2px solid lightgreen';
-  let lables = parent.querySelectorAll('label');
-  lables.forEach((label) => {
-    label.style.color = 'white';
-  });
-});
-incorrectArray.forEach((parent) => {
-  parent.style.backgroundColor = 'red';
-  parent.style.color = '#fff';
-  parent.style.border = '2px solid darkred';
-  let lables = parent.querySelectorAll('label');
-  lables.forEach((label) => {
-    label.style.color = 'white';
-  });
-});
