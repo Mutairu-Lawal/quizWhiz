@@ -284,10 +284,9 @@ function renderResult() {
     </div>
     `;
   (_a = document.querySelector('button'))?.addEventListener('click', () => {
-    open('result-page.html', '_blank');
-    location.reload();
+    open('answers-page.html', '_self');
+    // location.reload();
   });
-
   saveUserDetails();
   clearData();
 }
@@ -394,7 +393,23 @@ function generateRandomQuestion(questionType) {
   });
   return arr;
 }
-
 function resetUserChoice() {
-  user = { ...user, incorrect: [], correct: [], unanswered: [] };
+  user = {
+    ...user,
+    incorrect: [],
+    correct: [],
+    unanswered: [],
+    Question: [...questions],
+  };
+
+  saveUserDetails();
+}
+let sameQuestion = [];
+
+for (let i = 0; i < defaultQuestions.length; i++) {
+  const currentQuestion = defaultQuestions[i].questionTag;
+  let count = 0;
+  defaultQuestions.forEach((q) => {
+    // q.questionTag === currentQuestion && (count += 1);
+  });
 }

@@ -1,6 +1,6 @@
 export const hardQuestions = [
   {
-    id: "034",
+    id: '034',
     questionTag: `The Adidas Jabulani ball, used in the 2010 FIFA World Cup, gained fame for a specific reason related to its design and performance. What was it?`,
     options: {
       optionA: `It was the first World Cup ball to feature a colorful design.`,
@@ -21,7 +21,7 @@ export const hardQuestions = [
     <p>The Adidas Jabulani ball used in the 2010 FIFA World Cup became famous for being criticized by players and coaches for its unpredictable flight in certain conditions, leading to controversy and discussion about the ball's design and performance.</p>`,
   },
   {
-    id: "033",
+    id: '033',
     questionTag: `In the 1930 FIFA World Cup final between Uruguay and Argentina, why was the match played with two different balls?`,
     options: {
       optionA: `The first ball burst during the match`,
@@ -42,7 +42,7 @@ export const hardQuestions = [
     <p>In the 1930 FIFA World Cup final, the match between Uruguay and Argentina was played with two different balls because the original ball used in the first half became waterlogged and heavy due to rain.</p>`,
   },
   {
-    id: "032",
+    id: '032',
     questionTag: `Who won two gold medals in the World Para Athlete Grand Prix in Nottwil City Switzerland`,
     options: {
       optionA: `Devender Kumar`,
@@ -63,7 +63,7 @@ export const hardQuestions = [
     <p>Saurabh Sharma, an athlete from Himachal Pradesh, India, won two gold medals at the World Para Athletics Grand Prix held in Nottwil, Switzerland. He achieved victory in the 1500-metre and 5000-metre races in the T12 category, which includes athletes with visual impairments.</p>`,
   },
   {
-    id: "031",
+    id: '031',
     questionTag: `The longest word in the world has how many letters?`,
     options: {
       optionA: `55`,
@@ -85,7 +85,7 @@ export const hardQuestions = [
     <p>It refers to a type of lung disease caused by inhaling very fine particles of silica. It has 45 letters.</p>`,
   },
   {
-    id: "030",
+    id: '030',
     questionTag: `Who painted the famous painting "Starry Night"?`,
     options: {
       optionA: `Vincent van Gogh`,
@@ -105,7 +105,7 @@ export const hardQuestions = [
     feedback: `Actually, the correct answer is Vincent van Gogh. He painted "Starry Night. Others are renowned artist as well.`,
   },
   {
-    id: "029",
+    id: '029',
     questionTag: `What is the smallest country in the world?`,
     options: {
       optionA: `Monaco`,
@@ -125,7 +125,7 @@ export const hardQuestions = [
     feedback: `The smallest country in the world is Vatican City.`,
   },
   {
-    id: "028",
+    id: '028',
     questionTag: `Who discovered penicillin?`,
     options: {
       optionA: `Isaac Newton`,
@@ -145,7 +145,7 @@ export const hardQuestions = [
     feedback: `Penicillin was discovered by Sir Alexander Fleming in 1928.`,
   },
   {
-    id: "027",
+    id: '027',
     questionTag: `In what year was Facebook founded?`,
     options: {
       optionA: `2000`,
@@ -165,7 +165,7 @@ export const hardQuestions = [
     feedback: `Facebook was founded on February 4, 2004.`,
   },
   {
-    id: "026",
+    id: '026',
     questionTag: `Who directed the movie "Titanic"?`,
     options: {
       optionA: `Steven Spielberg`,
@@ -185,7 +185,7 @@ export const hardQuestions = [
     feedback: `The movie "Titanic" was directed by James Cameron.`,
   },
   {
-    id: "025",
+    id: '025',
     questionTag: `Who wrote the novel "Pride and Prejudice"?`,
     options: {
       optionA: `Charlotte Bronte`,
@@ -205,7 +205,7 @@ export const hardQuestions = [
     feedback: `The novel "Pride and Prejudice" was written by Jane Austen.`,
   },
   {
-    id: "024",
+    id: '024',
     questionTag: `Who invented the lightbulb?`,
     options: {
       optionA: `Albert Einstein`,
@@ -225,7 +225,7 @@ export const hardQuestions = [
     feedback: `The invention of the lightbulb is attributed to Thomas Edison, who successfully created a practical and commercially viable electric light bulb in 1879.`,
   },
   {
-    id: "023",
+    id: '023',
     questionTag: `Who were the Wright Brothers?`,
     options: {
       optionA: `Scientists who discovered electricity`,
@@ -245,7 +245,7 @@ export const hardQuestions = [
     feedback: `The Wright Brothers, Orville and Wilbur Wright, were two American aviation pioneers credited with inventing, building, and flying the world's first successful motor-operated airplane. They made their first powered, controlled, and sustained flight on December 17, 1903, near Kitty Hawk, North Carolina.`,
   },
   {
-    id: "022",
+    id: '022',
     questionTag: `How many strings does a standard guitar have?`,
     options: {
       optionA: `Four`,
@@ -265,7 +265,7 @@ export const hardQuestions = [
     feedback: `A standard guitar typically has six strings.`,
   },
   {
-    id: "021",
+    id: '021',
     questionTag: `What is the world's largest desert?`,
     options: {
       optionA: `Mojave`,
@@ -285,7 +285,7 @@ export const hardQuestions = [
     feedback: `The world's largest desert is the Antarctic Desert, located in Antarctica. While it is not a sandy desert like the Sahara, it is classified as a desert because of its low precipitation levels.`,
   },
   {
-    id: "020",
+    id: '020',
     questionTag: `In what decade was the Internet created?`,
     options: {
       optionA: `1960s`,
@@ -305,7 +305,7 @@ export const hardQuestions = [
     feedback: `The Internet, as we know it today, was created in the 1960s with the development of ARPANET (Advanced Research Projects Agency Network), which was a project of the U.S. Department of Defense. However, it wasn't until the 1990s that the Internet became widely accessible to the public.`,
   },
   {
-    id: "019",
+    id: '019',
     questionTag: `The first player to score a hat-trick in Europa League?`,
     options: {
       optionA: `Radamel Falcao`,
@@ -325,7 +325,7 @@ export const hardQuestions = [
     feedback: `The first to do so was Liédson for Sporting CP against Dutch club Heerenveen on 17 September 2009, the first matchday of the new competition.`,
   },
   {
-    id: "018",
+    id: '018',
     questionTag: `The first player to score a hat-trick in the Europa League final?`,
     options: {
       optionA: `Radamel Falcao`,
@@ -345,7 +345,7 @@ export const hardQuestions = [
     feedback: `The first player to score a hat-trick in the Europa League final is Ademola Lookman of Atalanta, who scored three goals against Bayer Leverkusen on May 23, 2024`,
   },
   {
-    id: "017",
+    id: '017',
     questionTag: `Who is the author of the "Harry Potter" series?`,
     options: {
       optionA: `Roald Dahl`,
@@ -365,7 +365,7 @@ export const hardQuestions = [
     feedback: `The "Harry Potter" series was written by J.K. Rowling.`,
   },
   {
-    id: "016",
+    id: '016',
     questionTag: `Who discovered electricity?`,
     options: {
       optionA: `Benjamin Franklin`,
@@ -385,7 +385,7 @@ export const hardQuestions = [
     feedback: `Electricity was not discovered by a single person. Its discovery and understanding evolved over centuries through the work of many scientists and researchers. Some key figures in the history of electricity include Benjamin Franklin, Alessandro Volta, Michael Faraday, and Thomas Edison, among others.`,
   },
   {
-    id: "015",
+    id: '015',
     questionTag: `Who painted the "Mona Lisa"?`,
     options: {
       optionA: `Leonardo da Vinci`,
@@ -405,7 +405,7 @@ export const hardQuestions = [
     feedback: `The "Mona Lisa" was painted by Leonardo da Vinci.`,
   },
   {
-    id: "014",
+    id: '014',
     questionTag: `In what year was the first iPhone released?`,
     options: {
       optionA: `2005`,
@@ -425,7 +425,7 @@ export const hardQuestions = [
     feedback: `The first iPhone was released in 2007.`,
   },
   {
-    id: "013",
+    id: '013',
     questionTag: `What is the chemical symbol for Gold?`,
     options: {
       optionA: `Gd`,
@@ -445,7 +445,7 @@ export const hardQuestions = [
     feedback: `The chemical symbol for gold is Au.`,
   },
   {
-    id: "012",
+    id: '012',
     questionTag: `"E=mc^2" is known as?`,
     options: {
       optionA: `Heisenberg's Uncertainty Principle`,
@@ -465,7 +465,7 @@ export const hardQuestions = [
     feedback: `"E=mc²" is known as Einstein's mass-energy equivalence formula. It was proposed by Albert Einstein in his theory of relativity.`,
   },
   {
-    id: "011",
+    id: '011',
     questionTag: `What is the main ingredient in a traditional Margherita pizza?`,
     options: {
       optionA: `Pepperoni`,
@@ -485,7 +485,7 @@ export const hardQuestions = [
     feedback: `The main ingredients in a traditional Margherita pizza are tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil. The primary ingredient is the tomatoes, typically used in the form of a sauce.`,
   },
   {
-    id: "010",
+    id: '010',
     questionTag: `Who is the creator of the TV show "Game of Thrones"?`,
     options: {
       optionA: `George R.R. Martin`,
@@ -505,7 +505,7 @@ export const hardQuestions = [
     feedback: `The TV show "Game of Thrones" is based on the book series "A Song of Ice and Fire" by George R.R. Martin. However, the TV adaptation was created by David Benioff and D.B. Weiss.`,
   },
   {
-    id: "009",
+    id: '009',
     questionTag: `In which country is the Sphinx located?`,
     options: {
       optionA: `Greece`,
@@ -525,7 +525,7 @@ export const hardQuestions = [
     feedback: `The Great Barrier Reef is off the coast of Australia.`,
   },
   {
-    id: "008",
+    id: '008',
     questionTag: `The Great Barrier Reef is off the coast of which country?`,
     options: {
       optionA: `New Zealand`,
@@ -545,7 +545,7 @@ export const hardQuestions = [
     feedback: `The Great Barrier Reef is off the coast of Australia.`,
   },
   {
-    id: "007",
+    id: '007',
     questionTag: `What year did women get the right to vote in the United States?`,
     options: {
       optionA: `1920`,
@@ -565,7 +565,7 @@ export const hardQuestions = [
     feedback: `Women gained the right to vote in the United States in 1920 with the ratification of the 19th Amendment to the U.S. Constitution.`,
   },
   {
-    id: "006",
+    id: '006',
     questionTag: `How many legs does a spider usually have?`,
     options: {
       optionA: `Four`,
@@ -585,7 +585,7 @@ export const hardQuestions = [
     feedback: `A spider usually has eight legs.`,
   },
   {
-    id: "005",
+    id: '005',
     questionTag: `How many constellations are recognized by the International Astronomical Union?`,
     options: {
       optionA: `100`,
@@ -605,7 +605,7 @@ export const hardQuestions = [
     feedback: `The International Astronomical Union (IAU) recognizes 88 constellations.`,
   },
   {
-    id: "004",
+    id: '004',
     questionTag: `Who first said, "I think, therefore I am"?`,
     options: {
       optionA: `Plato`,
@@ -625,7 +625,7 @@ export const hardQuestions = [
     feedback: `The phrase "I think, therefore I am" was first said by the French philosopher René Descartes. In Latin, it is "Cogito, ergo sum."`,
   },
   {
-    id: "003",
+    id: '003',
     questionTag: `Who wrote the musical "Hamilton"?`,
     options: {
       optionA: `Andrew Lloyd Webber`,
@@ -645,7 +645,7 @@ export const hardQuestions = [
     feedback: `Lin-Manuel Miranda wrote the musical "Hamilton."`,
   },
   {
-    id: "002",
+    id: '002',
     questionTag: `How many stars are there on the flag of China?`,
     options: {
       optionA: `1`,
@@ -665,7 +665,7 @@ export const hardQuestions = [
     feedback: `The flag of China has five stars. There is one large star and four smaller stars arranged in a semicircle on the upper left corner of the flag.`,
   },
   {
-    id: "001",
+    id: '001',
     questionTag: `Who wrote the novel "1984"?`,
     options: {
       optionA: `J.K. Rowling`,
@@ -688,7 +688,7 @@ export const hardQuestions = [
 
 export const mathsQuestions = [
   {
-    id: "030",
+    id: '030',
     questionTag: `A car can cover a distance of 522 km on 36 liters of petrol. How far can it travel on 14 liters of petrol ?`,
     options: {
       optionA: `203 km`,
@@ -711,7 +711,7 @@ export const mathsQuestions = [
     <p>Distance on 14 liters= 14.5 km/liter &times; 14 liters = 203 km</p>`,
   },
   {
-    id: "029",
+    id: '029',
     questionTag: `Two numbers are in ratio 4 : 5. If the sum of the numbers is 135, find the numbers.`,
     options: {
       optionA: `54 and 81`,
@@ -739,7 +739,7 @@ export const mathsQuestions = [
     <p>So, the numbers are 60 and 75.</p>`,
   },
   {
-    id: "028",
+    id: '028',
     questionTag: `Subtract - 8a from - 3a ?`,
     options: {
       optionA: `5a`,
@@ -761,7 +761,7 @@ export const mathsQuestions = [
     <p>So, the answer is \( 5a \).</p>`,
   },
   {
-    id: "027",
+    id: '027',
     questionTag: `Two consecutive numbers are 8 and 9. Find the difference of their squares ?`,
     options: {
       optionA: `1`,
@@ -783,7 +783,7 @@ export const mathsQuestions = [
     So, the difference of the squares of 8 and 9 is 17.`,
   },
   {
-    id: "026",
+    id: '026',
     questionTag: `In a century how many months are there?`,
     options: {
       optionA: `12`,
@@ -803,7 +803,7 @@ export const mathsQuestions = [
     feedback: `In a century, there are 100 &times; 12 = 1200 months.`,
   },
   {
-    id: "025",
+    id: '025',
     questionTag: `What is the reciprocal of 17/15 ?`,
     options: {
       optionA: `1.13`,
@@ -824,7 +824,7 @@ export const mathsQuestions = [
     <p>The reciprocal of 17/15 = 15/17.</p>`,
   },
   {
-    id: "024",
+    id: '024',
     questionTag: `What is the value of x if x<sup>2</sup> = 169`,
     options: {
       optionA: `1`,
@@ -847,7 +847,7 @@ export const mathsQuestions = [
     <p>So, the values of x are 13 and -13.</p>`,
   },
   {
-    id: "023",
+    id: '023',
     questionTag: `How many years are there in a decade?`,
     options: {
       optionA: `5`,
@@ -867,7 +867,7 @@ export const mathsQuestions = [
     feedback: `A decade is equal to 10 years.`,
   },
   {
-    id: "022",
+    id: '022',
     questionTag: ` I am a number. I have 7 in the ones place. I am less than 80 but greater than 70. What is my number?`,
     options: {
       optionA: `71`,
@@ -887,7 +887,7 @@ export const mathsQuestions = [
     feedback: `The possible numbers between 70 and 80 with 7 in the ones place is 77.`,
   },
   {
-    id: "021",
+    id: '021',
     questionTag: `What is 7% equal to?`,
     options: {
       optionA: `0.007`,
@@ -907,7 +907,7 @@ export const mathsQuestions = [
     feedback: `7&#37; = 0.07;`,
   },
   {
-    id: "020",
+    id: '020',
     questionTag: `What is the remainder of 21 divided by 7?`,
     options: {
       optionA: `21`,
@@ -927,7 +927,7 @@ export const mathsQuestions = [
     feedback: `The remainder of 21 divided by 7 is 0.`,
   },
   {
-    id: "019",
+    id: '019',
     questionTag: `If David’s age is 27 years old in 2011. What was his age in 2003 ?`,
     options: {
       optionA: `17 years`,
@@ -950,7 +950,7 @@ export const mathsQuestions = [
     Therefore, David was 19 years old in 2003.`,
   },
   {
-    id: "018",
+    id: '018',
     questionTag: `What is three fifth of 100 ?`,
     options: {
       optionA: `3`,
@@ -972,7 +972,7 @@ export const mathsQuestions = [
     So, three fifths of 100 is 60.`,
   },
   {
-    id: "017",
+    id: '017',
     questionTag: `How many significant numbers are there in 0.002 ?`,
     options: {
       optionA: `1`,
@@ -992,7 +992,7 @@ export const mathsQuestions = [
     feedback: `In the number 0.002, there is one significant figure. Leading zeros, which are zeros to the left of the first non-zero digit, are not considered significant. Therefore, only the digit 2 is counted as a significant figure in this case.`,
   },
   {
-    id: "016",
+    id: '016',
     questionTag: `Answer with the correct number of significant figures. 13.023 x 123.1 = __________. `,
     options: {
       optionA: `1603.1313 (8 significant figures)`,
@@ -1012,7 +1012,7 @@ export const mathsQuestions = [
     feedback: `In multiplication and division, the rule for determining the number of significant figures in the result is that it should have the same number of significant figures as the least precise number being multiplied or divided. Since 123.1 is the least precise number with 4 significant figures, the result should also have 4 significant figures.`,
   },
   {
-    id: "015",
+    id: '015',
     questionTag: `Add the following and answer with the correct number of significant figures: 3.01 + 2.32+ 5.1 = ________.?`,
     options: {
       optionA: `10.4 (3 significant figures)`,
@@ -1032,7 +1032,7 @@ export const mathsQuestions = [
     feedback: `When adding these numbers, you should retain the same number of decimal places as the number with the fewest decimal places, which, in this case, is "5.1." Therefore, the answer should be rounded to one decimal place: 10.43 (rounded to one decimal place)`,
   },
   {
-    id: "014",
+    id: '014',
     questionTag: `How many significant figures are there in 560,890 birds?`,
     options: {
       optionA: `7`,
@@ -1052,7 +1052,7 @@ export const mathsQuestions = [
     feedback: `In the number 560,890, there are five significant figures. Significant figures are the digits in a number that contribute to its precision and are used to convey the level of uncertainty in a measurement or value. In this case, all the digits (5, 6, 0, 8, and 9) are considered significant because they provide information about the quantity being represented, and there are no leading or trailing zeros that are not significant`,
   },
   {
-    id: "012",
+    id: '012',
     questionTag: `What is the sum of the angles in a triangle?`,
     options: {
       optionA: `90 degrees`,
@@ -1072,7 +1072,7 @@ export const mathsQuestions = [
     feedback: `The sum of the interior angles of any triangle is always 180 degrees.`,
   },
   {
-    id: "013",
+    id: '013',
     questionTag: `What is the next number in the sequence: 2, 4, 8, 16, ___?`,
     options: {
       optionA: `20`,
@@ -1092,7 +1092,7 @@ export const mathsQuestions = [
     feedback: `The sequence doubles each time (2, 4, 8, 16). Doubling 16 gives 32.`,
   },
   {
-    id: "011",
+    id: '011',
     questionTag: `If a triangle has sides of length 3, 4, and 5, what type of triangle is it?`,
     options: {
       optionA: `Equilateral`,
@@ -1113,7 +1113,7 @@ export const mathsQuestions = [
     feedback: `A triangle with sides of length 3, 4, and 5 satisfies the Pythagorean theorem 3<sup>2</sup> &plus; 4<sup>2</sup> = 5<sup>2</sup>, indicating it is a right triangle.`,
   },
   {
-    id: "010",
+    id: '010',
     questionTag: `What is the value of &Sqrt;81 ?`,
     options: {
       optionA: `7`,
@@ -1133,7 +1133,7 @@ export const mathsQuestions = [
     feedback: `The square root of 81 is 9 because 9<sup>2</sup> = 81.`,
   },
   {
-    id: "009",
+    id: '009',
     questionTag: `Which of the following numbers is a prime number?`,
     options: {
       optionA: `15`,
@@ -1153,7 +1153,7 @@ export const mathsQuestions = [
     feedback: `A prime number is a number greater than 1 that has no positive divisors other than 1 and itself. 23 is a prime number as it can only be divided by 1 and 23.`,
   },
   {
-    id: "008",
+    id: '008',
     questionTag: `What is the area of a circle with radius 3 units?`,
     options: {
       optionA: `9&pi; square units`,
@@ -1173,7 +1173,7 @@ export const mathsQuestions = [
     feedback: `The area of a circle is given by πr<sup>2</sup>. For a radius of 3, the area is π(3<sup>2</sup>) = 9π square units`,
   },
   {
-    id: "007",
+    id: '007',
     questionTag: `Solve for x: <br> 2x &plus; 5 &equals; 15`,
     options: {
       optionA: `5`,
@@ -1193,7 +1193,7 @@ export const mathsQuestions = [
     feedback: `Subtract 5 from both sides to get 2x &equals; 10,then divide both sides by 2 to get x &equals; 5.`,
   },
   {
-    id: "006",
+    id: '006',
     questionTag: `What is the value of &pi; to two decimal places? `,
     options: {
       optionA: `3.12`,
@@ -1213,7 +1213,7 @@ export const mathsQuestions = [
     feedback: `The mathematical constant &pi; is approximately 3.14 when rounded to two decimal places.`,
   },
   {
-    id: "005",
+    id: '005',
     questionTag: `Which of these is continuous data?`,
     options: {
       optionA: `Number of children in a family`,
@@ -1233,7 +1233,7 @@ export const mathsQuestions = [
     feedback: `Length of a river is continuous data because it can take any value within a range and can be measured in finer units (e.g., meters, kilometers). The other options are discrete data, which take on specific whole values.`,
   },
   {
-    id: "004",
+    id: '004',
     questionTag: `Which of these is NOT discrete data?`,
     options: {
       optionA: `Number of books on a shelf`,
@@ -1253,7 +1253,7 @@ export const mathsQuestions = [
     feedback: `Age of a person is continuous data because it can take any value within a range and can be measured in smaller units (years, months, days). The other options are discrete data, which take on specific whole values.`,
   },
   {
-    id: "003",
+    id: '003',
     questionTag: `Which of these is NOT continuous data?`,
     options: {
       optionA: `A person's weight each weak`,
@@ -1273,7 +1273,7 @@ export const mathsQuestions = [
     feedback: `The number of students in a class is discrete data, which takes on specific whole values. Continuous data, like temperature, height, and weight, can take any value within a range.`,
   },
   {
-    id: "002",
+    id: '002',
     questionTag: `The qualities of continuous data can be?`,
     options: {
       optionA: `Measured`,
@@ -1293,7 +1293,7 @@ export const mathsQuestions = [
     feedback: `Continuous data refers to data that can take on any value within a specific range. It is not limited to specific values or categories. The term "measured" implies that continuous data can be quantitatively measured, such as temperature, height, or weight. On the other hand, counting is more suitable for discrete data, where values can only be whole numbers or specific categories. Therefore, the correct answer is "Measured" because continuous data can be measured rather than counted.`,
   },
   {
-    id: "001",
+    id: '001',
     questionTag: `The qualities of discrete data can be ?`,
     options: {
       optionA: `Measured`,
@@ -1316,7 +1316,7 @@ export const mathsQuestions = [
 
 export const englishQuestions = [
   {
-    id: "ENG040",
+    id: 'ENG040',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Millennium`,
@@ -1336,7 +1336,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "millennium," referring to a period of a thousand years.`,
   },
   {
-    id: "ENG039",
+    id: 'ENG039',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Harassment`,
@@ -1356,7 +1356,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "harassment," meaning aggressive pressure or intimidation.`,
   },
   {
-    id: "ENG038",
+    id: 'ENG038',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Embarrasment`,
@@ -1376,7 +1376,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "embarrassment," referring to a feeling of self-consciousness, shame, or awkwardness.`,
   },
   {
-    id: "ENG037",
+    id: 'ENG037',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Acommodate`,
@@ -1396,7 +1396,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "accommodate," meaning to fit in with the wishes or needs of.`,
   },
   {
-    id: "ENG036",
+    id: 'ENG036',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Privelege`,
@@ -1416,7 +1416,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "privilege," meaning a special right, advantage, or immunity granted or available only to a particular person or group`,
   },
   {
-    id: "ENG035",
+    id: 'ENG035',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Necessarily`,
@@ -1436,7 +1436,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "necessarily," meaning in such a manner as could not be otherwise.`,
   },
   {
-    id: "ENG034",
+    id: 'ENG034',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Exhilerate`,
@@ -1456,7 +1456,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "exhilarate," meaning to make someone feel very happy, animated, or elated.`,
   },
   {
-    id: "ENG033",
+    id: 'ENG033',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Embarassing`,
@@ -1476,7 +1476,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "embarrassing," meaning causing embarrassment.`,
   },
   {
-    id: "ENG032",
+    id: 'ENG032',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Accommodation`,
@@ -1496,7 +1496,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "accommodation," referring to a place to stay or an agreement or settlement.`,
   },
   {
-    id: "ENG031",
+    id: 'ENG031',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Conscientious`,
@@ -1516,7 +1516,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "conscientious," meaning wishing to do what is right.`,
   },
   {
-    id: "ENG030",
+    id: 'ENG030',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Refrence`,
@@ -1536,7 +1536,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "reference," with 'e' after 'r' and 'c'.`,
   },
   {
-    id: "ENG029",
+    id: 'ENG029',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Necessery`,
@@ -1556,7 +1556,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "necessary," with double 's' and 'a' after 'e'.`,
   },
   {
-    id: "ENG028",
+    id: 'ENG028',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Misspell`,
@@ -1576,7 +1576,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "misspell," with double 's' and double 'l'.`,
   },
   {
-    id: "ENG027",
+    id: 'ENG027',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Disapoint`,
@@ -1596,7 +1596,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "disappoint," with double 'p' and 'o'.`,
   },
   {
-    id: "ENG026",
+    id: 'ENG026',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Embarrasment`,
@@ -1616,7 +1616,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "embarrassment," with double 'r' and double 's'.`,
   },
   {
-    id: "ENG025",
+    id: 'ENG025',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Seperate`,
@@ -1636,7 +1636,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "separate," with 'a' after 'e'.`,
   },
   {
-    id: "ENG024",
+    id: 'ENG024',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Occured`,
@@ -1656,7 +1656,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "occurred," with double 'r'.`,
   },
   {
-    id: "ENG023",
+    id: 'ENG023',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Beggining`,
@@ -1676,7 +1676,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "beginning," with double 'n' and 'g'.`,
   },
   {
-    id: "ENG022",
+    id: 'ENG022',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Recieve`,
@@ -1696,7 +1696,7 @@ export const englishQuestions = [
     feedback: `The correct spelling is "receive," with 'i' before 'e'.`,
   },
   {
-    id: "ENG021",
+    id: 'ENG021',
     questionTag: `Choose the correct spelling:`,
     options: {
       optionA: `Happenning`,
@@ -1716,7 +1716,7 @@ export const englishQuestions = [
     feedback: `"Happening" is spelled with two 'p's and one 'n'.`,
   },
   {
-    id: "ENG020",
+    id: 'ENG020',
     questionTag: `Tag Questions: You'll be leaving for Los Angeles soon, __________? `,
     options: {
       optionA: `Won't you?`,
@@ -1736,7 +1736,7 @@ export const englishQuestions = [
     feedback: `The correct answer is, "won't you?" This is because the tag question is used to seek confirmation or agreement from the listener. In this case, the speaker is assuming that the person they are speaking to will be leaving for Los Angeles soon, and they are seeking confirmation of this assumption. The tag question "won't you?" is used to ask if the assumption is correct, implying that the listener is indeed leaving for Los Angeles soon.`,
   },
   {
-    id: "ENG019",
+    id: 'ENG019',
     questionTag: `Context Clues: The thought of eating a rat is abhorrent to most people.`,
     options: {
       optionA: `Fun, lively`,
@@ -1756,7 +1756,7 @@ export const englishQuestions = [
     feedback: `The phrase "abhorrent to most people" suggests that the thought of eating a rat is strongly disliked or detested by most individuals. This aligns with the meaning of "horrible" and "repugnant," which both indicate something that is extremely unpleasant or disgusting. Therefore, the correct answer is "horrible, repugnant."`,
   },
   {
-    id: "ENG018",
+    id: 'ENG018',
     questionTag: `Context Clues: I took the tome off the shelf and opened it to page 94. Then I began to read. Tome means...`,
     options: {
       optionA: `Food`,
@@ -1776,7 +1776,7 @@ export const englishQuestions = [
     feedback: `In the given context, the narrator mentions taking the tome off the shelf and opening it to a specific page, indicating that a tome refers to a book.`,
   },
   {
-    id: "ENG017",
+    id: 'ENG017',
     questionTag: `Prepositions: She always gets up early ______ the morning, so she can make it to class ______ time.`,
     options: {
       optionA: `By and in`,
@@ -1796,7 +1796,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "in ---- on". The preposition "in" is used to indicate a specific time period, in this case, the morning. The preposition "on" is used to indicate a specific point in time, in this case, the time when she needs to make it to class. So, the sentence means that she always gets up early during the morning, so she can make it to class at the specific time she needs to be there.`,
   },
   {
-    id: "ENG016",
+    id: 'ENG016',
     questionTag: `Prepositions: The computer printer is _______ the table ______ the computer.`,
     options: {
       optionA: `On and at`,
@@ -1816,7 +1816,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "on ---- next to" because it indicates that the computer printer is positioned on the table, but it is also located beside or adjacent to the computer`,
   },
   {
-    id: "ENG015",
+    id: 'ENG015',
     questionTag: `Compound Nouns: Thomas White, who orchestrated ___________ rescue packages, will address the group.`,
     options: {
       optionA: `Multi billion-dollars`,
@@ -1836,7 +1836,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "multi billion-dollar" because it correctly combines the words "multi" and "billion-dollar" to form a compound noun that describes the rescue packages. This hyphenated form is necessary to show that "billion" and "dollar" are connected and function together as a single unit modifying "rescue packages".`,
   },
   {
-    id: "ENG014",
+    id: 'ENG014',
     questionTag: `Verb: The plane _____ at New York's Kennedy Airport. `,
     options: {
       optionA: `Got down`,
@@ -1856,7 +1856,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "landed" because when a plane arrives at an airport, it typically lands. The verb "landed" specifically refers to the action of a plane touching down on the runway after a flight.`,
   },
   {
-    id: "ENG013",
+    id: 'ENG013',
     questionTag: `Verb Forms: Yesterday, we ______ a very interesting conference call about the new ERP project. .`,
     options: {
       optionA: `Are having`,
@@ -1876,7 +1876,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "had". This is because the sentence is referring to a past event, indicated by the word "yesterday". Therefore, the past tense form of the verb "have" should be used, which is "had".`,
   },
   {
-    id: "ENG012",
+    id: 'ENG012',
     questionTag: `Verb Forms: We usually ______ dinner at 8:00 p.m.`,
     options: {
       optionA: `Eat`,
@@ -1896,7 +1896,7 @@ export const englishQuestions = [
     feedback: `The correct answer is "eat" because the sentence is in the present tense and "eat" is the base form of the verb that agrees with the subject "we".`,
   },
   {
-    id: "ENG011",
+    id: 'ENG011',
     questionTag: `Pick the correct answer: <br> A dog is bigger than a mouse but smaller than an elephant.`,
     options: {
       optionA: `A dos is smaller than a mouse`,
@@ -1916,7 +1916,7 @@ export const englishQuestions = [
     feedback: `The given statement states that a dog is bigger than a mouse but smaller than an elephant. Therefore, the correct answer is "An elephant is bigger than a dog" as it aligns with the information provided in the statement.`,
   },
   {
-    id: "ENG010",
+    id: 'ENG010',
     questionTag: `What does the idiom "break the ice" mean?`,
     options: {
       optionA: `To start a conversation in a social setting`,
@@ -1936,7 +1936,7 @@ export const englishQuestions = [
     feedback: `"Break the ice" is an idiom that means to initiate conversation in a social setting, especially to overcome initial awkwardness.`,
   },
   {
-    id: "ENG009",
+    id: 'ENG009',
     questionTag: `Determine the meaning of the word in context: <br>"The manager was commended for his astute decisions during the crisis."`,
     options: {
       optionA: `Careless`,
@@ -1956,7 +1956,7 @@ export const englishQuestions = [
     feedback: `<p>"Astute" means having or showing an ability to accurately assess situations and turn this to one's advantage. "Shrewd" is a synonym.</p>`,
   },
   {
-    id: "ENG008",
+    id: 'ENG008',
     questionTag: `What is the antonym of "optimistic"?`,
     options: {
       optionA: `Hopeful`,
@@ -1976,7 +1976,7 @@ export const englishQuestions = [
     feedback: `<p>"Optimistic" means hopeful and confident about the future. The opposite, or antonym, is "pessimistic," which means tending to see the worst aspect of things or believe that the worst will happen.</p>`,
   },
   {
-    id: "ENG007",
+    id: 'ENG007',
     questionTag: `What is a synonym for "proficient"`,
     options: {
       optionA: `Inept`,
@@ -1996,7 +1996,7 @@ export const englishQuestions = [
     feedback: `<p> "Proficient" means having a high degree of skill; "skilled" is a synonym.</p>`,
   },
   {
-    id: "ENG007",
+    id: 'ENG007',
     questionTag: `What is a synonym for "proficient"`,
     options: {
       optionA: `Inept`,
@@ -2016,7 +2016,7 @@ export const englishQuestions = [
     feedback: `<p> "Proficient" means having a high degree of skill; "skilled" is a synonym.</p>`,
   },
   {
-    id: "ENG006",
+    id: 'ENG006',
     questionTag: `Which sentence is punctuated correctly?`,
     options: {
       optionA: `I bought apples oranges and bananas`,
@@ -2036,7 +2036,7 @@ export const englishQuestions = [
     feedback: `<p> The Oxford comma is used before the conjunction "and" in a list of three or more items.</p>`,
   },
   {
-    id: "ENG005",
+    id: 'ENG005',
     questionTag: `Choose the correctly spelled word:`,
     options: {
       optionA: `Accomodate`,
@@ -2056,7 +2056,7 @@ export const englishQuestions = [
     feedback: `<p> The correct spelling of the word is "accommodate," with double "c" and double "m"</p>`,
   },
   {
-    id: "ENG004",
+    id: 'ENG004',
     questionTag: `Identify the error in the sentence: "Each of the students have completed their assignments.`,
     options: {
       optionA: `Each`,
@@ -2076,7 +2076,7 @@ export const englishQuestions = [
     feedback: `<p> Each" is singular, so the correct verb should be "has". The correct sentence is "Each of the students has completed their assignments.</p>`,
   },
   {
-    id: "ENG003",
+    id: 'ENG003',
     questionTag: `In the passage, "The project was completed on time, despite several setbacks," <br> what does "setbacks" mean?`,
     options: {
       optionA: `Delays`,
@@ -2096,7 +2096,7 @@ export const englishQuestions = [
     feedback: `<p>"Setbacks" refer to events that delay progress. In the context of the passage, it indicates challenges that could have delayed the project.</p>`,
   },
   {
-    id: "ENG002",
+    id: 'ENG002',
     questionTag: `Which word is closest in meaning to "exemplary"?`,
     options: {
       optionA: `Ordinary`,
@@ -2116,7 +2116,7 @@ export const englishQuestions = [
     feedback: `<p>Exemplary" means serving as a desirable model; very good. The word "admirable" is closest in meaning.</p>`,
   },
   {
-    id: "ENG001",
+    id: 'ENG001',
     questionTag: `Choose the correct sentence:`,
     options: {
       optionA: `She don’t like to eat vegetables.`,
@@ -2139,7 +2139,7 @@ export const englishQuestions = [
 
 export const scienceQuestions = [
   {
-    id: "SCI40",
+    id: 'SCI40',
     questionTag: `Which part of the eye is responsible for focusing light onto the retina?`,
     options: {
       optionA: `Cornea`,
@@ -2162,7 +2162,7 @@ export const scienceQuestions = [
     `,
   },
   {
-    id: "SCI039",
+    id: 'SCI039',
     questionTag: `What is the medical term for inflammation of the liver?`,
     options: {
       optionA: `Hepatitis`,
@@ -2185,7 +2185,7 @@ export const scienceQuestions = [
     `,
   },
   {
-    id: "SCI038",
+    id: 'SCI038',
     questionTag: `Which of the following is responsible for the production of antibodies in response to an infection?`,
     options: {
       optionA: `Red blood cells`,
@@ -2207,7 +2207,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI037",
+    id: 'SCI037',
     questionTag: `What is the medical term for the kneecap?`,
     options: {
       optionA: `Tibia`,
@@ -2229,7 +2229,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI036",
+    id: 'SCI036',
     questionTag: `Which of the following is responsible for carrying oxygen in the blood?`,
     options: {
       optionA: `Hemoglobin`,
@@ -2251,7 +2251,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI035",
+    id: 'SCI035',
     questionTag: `What is the medical term for the voice box?`,
     options: {
       optionA: `Pharynx`,
@@ -2273,7 +2273,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI034",
+    id: 'SCI034',
     questionTag: `Which organ is responsible for producing bile to aid in digestion?`,
     options: {
       optionA: `Pancreas`,
@@ -2295,7 +2295,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI033",
+    id: 'SCI033',
     questionTag: `What is the medical term for inflammation of the joints?`,
     options: {
       optionA: `Osteoporosis`,
@@ -2317,7 +2317,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI032",
+    id: 'SCI032',
     questionTag: `Which of the following is responsible for blood clotting?`,
     options: {
       optionA: `Red blood cells`,
@@ -2339,7 +2339,7 @@ export const scienceQuestions = [
     </p>`,
   },
   {
-    id: "SCI031",
+    id: 'SCI031',
     questionTag: `What is the unit of measurement for blood pressure?`,
     options: {
       optionA: `Liters per minute (L/min)`,
@@ -2359,7 +2359,7 @@ export const scienceQuestions = [
     feedback: `<p>Blood pressure is typically measured in millimeters of mercury (mmHg). It is expressed as two numbers, with the systolic pressure (pressure in the arteries when the heart beats) over the diastolic pressure (pressure in the arteries when the heart is at rest) written as a ratio, such as 120/80 mmHg.</p>`,
   },
   {
-    id: "SCI030",
+    id: 'SCI030',
     questionTag: `What is the main component of natural gas?`,
     options: {
       optionA: `Ethane`,
@@ -2379,7 +2379,7 @@ export const scienceQuestions = [
     feedback: `<p>The main component of natural gas is methane (CH₄), which typically makes up 70-90% of natural gas. Methane is a simple hydrocarbon that burns cleanly, producing carbon dioxide and water vapor, making it an important energy source for heating, electricity generation, and as a feedstock for chemical industries.</p>`,
   },
   {
-    id: "SCI029",
+    id: 'SCI029',
     questionTag: `Which vitamin is produced when the skin is exposed to sunlight?`,
     options: {
       optionA: `Vitamin A`,
@@ -2399,7 +2399,7 @@ export const scienceQuestions = [
     feedback: `<p>Vitamin D is produced in the skin when it is exposed to sunlight, specifically ultraviolet B (UVB) rays. This vitamin is essential for maintaining healthy bones and teeth, supporting the immune system, and regulating calcium and phosphorus levels in the body. Sunlight exposure triggers the synthesis of vitamin D3 (cholecalciferol), which is then converted to its active form in the liver and kidneys.</p>`,
   },
   {
-    id: "SCI028",
+    id: 'SCI028',
     questionTag: `Which of the following is used as a lubricant?`,
     options: {
       optionA: `Diamond`,
@@ -2419,7 +2419,7 @@ export const scienceQuestions = [
     feedback: `<p>Graphite is used as a lubricant due to its layered, planar structure, where layers can slide over each other easily. This property reduces friction and is particularly useful in high-temperature applications where traditional lubricants might fail. Graphite is often used in lubricating locks, bearings, and other mechanical devices.</p>`,
   },
   {
-    id: "SCI027",
+    id: 'SCI027',
     questionTag: `Tetraethyl lead is used as`,
     options: {
       optionA: `Fertilizer`,
@@ -2439,7 +2439,7 @@ export const scienceQuestions = [
     feedback: `<p>Tetraethyl lead (TEL) was commonly used as an additive in gasoline (petrol) to improve engine performance by increasing the fuel's octane rating and preventing knocking. However, due to its toxicity and environmental impact, the use of tetraethyl lead has been phased out in many countries and replaced with unleaded gasoline and other additives.</p>`,
   },
   {
-    id: "SCI026",
+    id: 'SCI026',
     questionTag: `The variety of coal in which the deposit contains recognisable traces of the original plant material is`,
     options: {
       optionA: `Anthracite`,
@@ -2459,7 +2459,7 @@ export const scienceQuestions = [
     feedback: `<p>Peat is the earliest stage of coal formation and contains recognizable traces of the original plant material. It is formed from the accumulation and partial decomposition of organic material, primarily plant remains, in water-saturated environments. Over time, peat can transform into other types of coal, such as lignite, bituminous coal, and eventually anthracite, through increased pressure and temperature during the coalification process.</p>`,
   },
   {
-    id: "SCI025",
+    id: 'SCI025',
     questionTag: `The hardest substance available on earth is`,
     options: {
       optionA: `Gold`,
@@ -2479,7 +2479,7 @@ export const scienceQuestions = [
     feedback: `<p>Diamond is the hardest naturally occurring substance known on Earth. It is a crystalline form of carbon with each carbon atom bonded tetrahedrally to four other carbon atoms, forming a very strong and rigid lattice. This structure gives diamond its exceptional hardness, making it invaluable for cutting, grinding, and drilling applications.</p>`,
   },
   {
-    id: "SCI024",
+    id: 'SCI024',
     questionTag: `Bromine is a`,
     options: {
       optionA: `Black solid`,
@@ -2499,7 +2499,7 @@ export const scienceQuestions = [
     feedback: `<p>Bromine is a reddish-brown liquid at room temperature. It is the only non-metallic element that is liquid under normal conditions. Bromine has a strong, unpleasant odor and evaporates easily to form a similarly colored gas. It is used in a variety of applications, including flame retardants, water purification, and as a chemical intermediate.</p>`,
   },
   {
-    id: "SCI023",
+    id: 'SCI023',
     questionTag: `Which of the gas is not known as green house gas?`,
     options: {
       optionA: `Methane`,
@@ -2519,7 +2519,7 @@ export const scienceQuestions = [
     feedback: `<p>Greenhouse gases, such as methane (CH₄), nitrous oxide (N₂O), and carbon dioxide (CO₂), trap heat in the Earth's atmosphere and contribute to the greenhouse effect, leading to global warming. Hydrogen (H₂), however, is not a greenhouse gas. It does not absorb infrared radiation and therefore does not contribute to the greenhouse effect.</p>`,
   },
   {
-    id: "SCI022",
+    id: 'SCI022',
     questionTag: `Quartz crystals normally used in quartz clocks etc. is chemically`,
     options: {
       optionA: `Silicon oxide`,
@@ -2539,7 +2539,7 @@ export const scienceQuestions = [
     feedback: `<p>Quartz crystals, commonly used in clocks and other electronic devices for their precise frequency control, are chemically composed of silicon dioxide (SiO₂). Silicon dioxide is a mineral also known as silica, and it has piezoelectric properties, meaning it can convert mechanical pressure into electrical signals and vice versa, making it ideal for maintaining accurate timekeeping in quartz clocks.</p>`,
   },
   {
-    id: "SCI021",
+    id: 'SCI021',
     questionTag: `Washing soda is the common name for`,
     options: {
       optionA: `Calcium bicarbonate`,
@@ -2559,7 +2559,7 @@ export const scienceQuestions = [
     feedback: `<p>Washing soda, also known as sodium carbonate (Na₂CO₃), is a white, water-soluble salt commonly used in cleaning products. It is effective at removing grease, oil, and stains from fabrics and surfaces. Sodium carbonate is also used in the production of glass, paper, and detergents.</p>`,
   },
   {
-    id: "SCI020",
+    id: 'SCI020',
     questionTag: `The gas usually filled in the electric bulb is`,
     options: {
       optionA: `Nitrogen`,
@@ -2579,7 +2579,7 @@ export const scienceQuestions = [
     feedback: `<p>The gas usually filled in incandescent light bulbs is nitrogen, often mixed with a small amount of argon. These inert gases are used to prevent the oxidation of the tungsten filament inside the bulb. By creating an inert atmosphere, they help prolong the life of the filament by reducing the rate of evaporation of tungsten and preventing its oxidation.</p>`,
   },
   {
-    id: "SCI019",
+    id: 'SCI019',
     questionTag: `Chemical formula for water is`,
     options: {
       optionA: `NaAlO2`,
@@ -2599,7 +2599,7 @@ export const scienceQuestions = [
     feedback: `<p>The chemical formula for water is H₂O, indicating that each molecule of water is composed of two hydrogen atoms covalently bonded to one oxygen atom. This simple formula reflects water's molecular composition and structure, which is crucial for its unique properties, such as its high boiling point, surface tension, and ability to dissolve many substances.</p>`,
   },
   {
-    id: "SCI018",
+    id: 'SCI018',
     questionTag: `Which of the following metals forms an amalgam with other metals?`,
     options: {
       optionA: `Lead`,
@@ -2619,7 +2619,7 @@ export const scienceQuestions = [
     feedback: `<p>Mercury is known for its ability to form amalgams, which are alloys with other metals. This property makes it useful in various applications, such as dental fillings and gold extraction. Amalgams are formed because mercury can dissolve many metals, including gold, silver, and tin, creating a liquid or semi-liquid alloy.</p>`,
   },
   {
-    id: "SCI017",
+    id: 'SCI017',
     questionTag: `Which of the following is used in pencils?`,
     options: {
       optionA: `Graphite`,
@@ -2639,7 +2639,7 @@ export const scienceQuestions = [
     feedback: `<p>Pencils contain graphite, a form of carbon. Graphite is soft and easily leaves marks on paper, making it ideal for writing and drawing. Despite commonly being called "lead" pencils, they do not contain the metal lead; instead, they use a mixture of graphite and clay.</p>`,
   },
   {
-    id: "SCI016",
+    id: 'SCI016',
     questionTag: `Chlorophyll is a naturally occurring chelate compound in which central metal is`,
     options: {
       optionA: `Magnesium`,
@@ -2659,7 +2659,7 @@ export const scienceQuestions = [
     feedback: `<p>Chlorophyll is a pigment found in plants that is essential for photosynthesis. It is a chelate compound, meaning it forms stable complexes with metal ions. The central metal ion in chlorophyll is magnesium (Mg). This magnesium ion plays a crucial role in the molecule's ability to absorb light, which is necessary for the photosynthesis process.</p>`,
   },
   {
-    id: "SCI015",
+    id: 'SCI015',
     questionTag: `Which of the following is a non metal that remains liquid at room temperature?`,
     options: {
       optionA: `Chlorine`,
@@ -2679,7 +2679,7 @@ export const scienceQuestions = [
     feedback: `<p>Bromine is the only non-metal that is a liquid at room temperature (approximately 25°C). It is a reddish-brown liquid that evaporates easily, producing a brownish vapor. Chlorine, phosphorus, and iodine are all solid or gaseous at room temperature.</p>`,
   },
   {
-    id: "SCI014",
+    id: 'SCI014',
     questionTag: `Which of the following is a non metal that remains liquid at room temperature?`,
     options: {
       optionA: `Chlorine`,
@@ -2699,7 +2699,7 @@ export const scienceQuestions = [
     feedback: `<p>Bromine is the only non-metal that is a liquid at room temperature (approximately 25°C). It is a reddish-brown liquid that evaporates easily, producing a brownish vapor. Chlorine, phosphorus, and iodine are all solid or gaseous at room temperature.</p>`,
   },
   {
-    id: "SCI013",
+    id: 'SCI013',
     questionTag: `Brass gets discoloured in air because of the presence of which of the following gases in air?`,
     options: {
       optionA: `Oxygen`,
@@ -2719,7 +2719,7 @@ export const scienceQuestions = [
     feedback: `<p> Brass, an alloy of copper and zinc, gets discolored in air primarily due to the presence of hydrogen sulfide (H₂S). Hydrogen sulfide reacts with the copper in brass to form copper sulfide, which appears as a tarnish or discoloration on the surface. This reaction is responsible for the darkening and dulling of brass objects over time when exposed to air containing trace amounts of hydrogen sulfide.</p>`,
   },
   {
-    id: "SCI012",
+    id: 'SCI012',
     questionTag: `Why is the TCA cycle the central pathway of metabolism in the cell?`,
     options: {
       optionA: `It is the primary source of glucose production.`,
@@ -2739,7 +2739,7 @@ export const scienceQuestions = [
     feedback: `<p>The TCA (tricarboxylic acid) cycle, also known as the Krebs cycle or citric acid cycle, is considered the central pathway of metabolism because it plays a key role in both the breakdown (catabolism) and synthesis (anabolism) of various biomolecules. It oxidizes acetyl-CoA to carbon dioxide and, in the process, generates high-energy electron carriers (NADH and FADH2) that are used in the electron transport chain to produce ATP. Additionally, it provides intermediates for the biosynthesis of amino acids, nucleotides, and other essential biomolecules, making it a critical hub for cellular metabolism.</p>`,
   },
   {
-    id: "SCI011",
+    id: 'SCI011',
     questionTag: `What is the term for the phenomenon where light bends as it passes from one medium to another?`,
     options: {
       optionA: `Reflection`,
@@ -2759,7 +2759,7 @@ export const scienceQuestions = [
     feedback: `<p>Refraction is the bending of light as it passes from one medium to another with a different refractive index, changing its speed and direction.</p>`,
   },
   {
-    id: "SCI010",
+    id: 'SCI010',
     questionTag: `Which law states that the volume of a gas is directly proportional to its temperature at constant pressure?`,
     options: {
       optionA: `Boyle's Law`,
@@ -2779,7 +2779,7 @@ export const scienceQuestions = [
     feedback: `<p>Charles's Law states that the volume of a gas is directly proportional to its temperature (in Kelvin) when the pressure is held constant.</p>`,
   },
   {
-    id: "SCI009",
+    id: 'SCI009',
     questionTag: `Which of the following is a correctly balanced chemical equation for the combustion of methane (CH₄)?`,
     options: {
       optionA: `CH₄ + O₂ → CO₂ + 2H₂O`,
@@ -2799,7 +2799,7 @@ export const scienceQuestions = [
     feedback: `<p>The balanced equation for the combustion of methane is CH₄ + 2O₂ → CO₂ + 2H₂O, where one molecule of methane reacts with two molecules of oxygen to produce one molecule of carbon dioxide and two molecules of water.</p>`,
   },
   {
-    id: "SCI008",
+    id: 'SCI008',
     questionTag: `What is the principle behind the working of a lever?`,
     options: {
       optionA: `Conservation of mass`,
@@ -2819,7 +2819,7 @@ export const scienceQuestions = [
     feedback: `<p>A lever works on the principle of the conservation of energy, where the input work done on one side of the lever is equal to the output work done on the other side, considering the efficiency of the lever.</p>`,
   },
   {
-    id: "SCI007",
+    id: 'SCI007',
     questionTag: `What is the main function of the mitochondria in a cell?`,
     options: {
       optionA: `Protein synthesis`,
@@ -2839,7 +2839,7 @@ export const scienceQuestions = [
     feedback: `<p>Mitochondria are known as the powerhouses of the cell because they produce ATP (adenosine triphosphate), the cell's main energy currency, through cellular respiration.</p>`,
   },
   {
-    id: "SCI006",
+    id: 'SCI006',
     questionTag: `Which gas do living beings need to breathe in to survive?`,
     options: {
       optionA: `Nitrogen`,
@@ -2859,7 +2859,7 @@ export const scienceQuestions = [
     feedback: `<p>Living beings need oxygen to survive because it is essential for cellular respiration, a process that produces energy.</p>`,
   },
   {
-    id: "SCI005",
+    id: 'SCI005',
     questionTag: `What is the boiling point of water at sea level in degrees Celsius?`,
     options: {
       optionA: `50°C`,
@@ -2879,7 +2879,7 @@ export const scienceQuestions = [
     feedback: `<p>Water boils at 100 degrees Celsius at sea level because this is the temperature at which its vapor pressure equals atmospheric pressure.</p>`,
   },
   {
-    id: "SCI004",
+    id: 'SCI004',
     questionTag: `What is the process by which plants make their food using sunlight?`,
     options: {
       optionA: `Photosynthesis`,
@@ -2899,7 +2899,7 @@ export const scienceQuestions = [
     feedback: `<p>Photosynthesis is the process by which plants use sunlight, carbon dioxide, and water to produce food (glucose) and oxygen.</p>`,
   },
   {
-    id: "SCI002",
+    id: 'SCI002',
     questionTag: `What is the chemical symbol for the element oxygen?`,
     options: {
       optionA: `O`,
@@ -2919,7 +2919,7 @@ export const scienceQuestions = [
     feedback: `<p>The chemical symbol for oxygen is "O" because it is derived from the first letter of its English name.</p>`,
   },
   {
-    id: "SCI001",
+    id: 'SCI001',
     questionTag: `How many molecules of ATPs are synthesized per NADH oxidation?`,
     options: {
       optionA: `2`,
@@ -2943,7 +2943,7 @@ export const scienceQuestions = [
 export const generalScience = [
   ...scienceQuestions,
   {
-    id: "GNS020",
+    id: 'GNS020',
     questionTag: `What is the medical term for a heart attack?`,
     options: {
       optionA: `Myocardial infarction`,
@@ -2963,7 +2963,7 @@ export const generalScience = [
     feedback: `<p> Myocardial infarction, commonly known as a heart attack, occurs when blood flow to a part of the heart is blocked for a prolonged period, leading to damage or death of the heart muscle. This is usually caused by a blockage in one or more of the coronary arteries that supply blood to the heart muscle. Symptoms of a heart attack can include chest pain, shortness of breath, nausea, and lightheadedness. </p>`,
   },
   {
-    id: "GNS019",
+    id: 'GNS019',
     questionTag: `Which part of the digestive system is responsible for absorbing nutrients into the bloodstream?`,
     options: {
       optionA: `Stomach`,
@@ -2983,7 +2983,7 @@ export const generalScience = [
     feedback: `<p> The small intestine is responsible for absorbing nutrients into the bloodstream. It is where the majority of digestion and absorption of nutrients takes place. The small intestine has a large surface area lined with specialized cells that absorb nutrients such as carbohydrates, proteins, fats, vitamins, and minerals into the bloodstream for use by the body. </p>`,
   },
   {
-    id: "GNS018",
+    id: 'GNS018',
     questionTag: `What is the medical term for high blood pressure?`,
     options: {
       optionA: `Hypotension`,
@@ -3003,7 +3003,7 @@ export const generalScience = [
     feedback: `<p> Hypertension is the medical term for high blood pressure. It is a condition in which the force of the blood against the walls of the arteries is consistently too high. Hypertension is a significant risk factor for heart disease, stroke, and other serious medical conditions. </p>`,
   },
   {
-    id: "GNS017",
+    id: 'GNS017',
     questionTag: `Which of the following is responsible for the production of red blood cells?`,
     options: {
       optionA: `Liver`,
@@ -3023,7 +3023,7 @@ export const generalScience = [
     feedback: `<p> Red blood cells are produced in the bone marrow, the spongy tissue found inside bones. This process, called hematopoiesis, is controlled by hormones and growth factors that stimulate the production and maturation of red blood cells from stem cells in the bone marrow. </p>`,
   },
   {
-    id: "GNS016",
+    id: 'GNS016',
     questionTag: `What is the term for inflammation of the appendix?`,
     options: {
       optionA: `Colitis`,
@@ -3043,7 +3043,7 @@ export const generalScience = [
     feedback: `<p> Appendicitis is the term used to describe inflammation of the appendix. The appendix is a small, tube-like structure attached to the large intestine. Appendicitis is often caused by a blockage, which can lead to infection, swelling, and pain in the lower right abdomen. If left untreated, appendicitis can result in a ruptured appendix, which is a medical emergency. </p>`,
   },
   {
-    id: "GNS015",
+    id: 'GNS015',
     questionTag: `What is the fluid that surrounds and protects the brain and spinal cord called?`,
     options: {
       optionA: `Synovial fluid`,
@@ -3063,7 +3063,7 @@ export const generalScience = [
     feedback: `<p> Cerebrospinal fluid (CSF) is a clear, colorless fluid that surrounds and protects the brain and spinal cord. It acts as a cushion, absorbing shock and protecting the central nervous system from injury. CSF also helps remove waste products from the brain and maintains a stable environment for the nervous tissue. </p>`,
   },
   {
-    id: "GNS014",
+    id: 'GNS014',
     questionTag: `Which of the following is responsible for transmitting electrical signals in the nervous system?`,
     options: {
       optionA: `Neurons`,
@@ -3083,7 +3083,7 @@ export const generalScience = [
     feedback: `<p>The normal body temperature in Celsius is typically considered to be between 36 and 37 degrees Celsius (or 98.6 degrees Fahrenheit). However, individual body temperatures can vary slightly, and factors such as age, activity level, and time of day can affect body temperature.</p>`,
   },
   {
-    id: "GNS013",
+    id: 'GNS013',
     questionTag: `What is the normal body temperature in Celsius?`,
     options: {
       optionA: `32-35°C`,
@@ -3103,7 +3103,7 @@ export const generalScience = [
     feedback: `<p>The normal body temperature in Celsius is typically considered to be between 36 and 37 degrees Celsius (or 98.6 degrees Fahrenheit). However, individual body temperatures can vary slightly, and factors such as age, activity level, and time of day can affect body temperature.</p>`,
   },
   {
-    id: "GNS012",
+    id: 'GNS012',
     questionTag: `Which hormone regulates the sleep-wake cycle?`,
     options: {
       optionA: `Melatonin`,
@@ -3123,7 +3123,7 @@ export const generalScience = [
     feedback: `<p>Melatonin is a hormone that regulates the sleep-wake cycle. It is produced by the pineal gland in the brain and is released in response to darkness, helping to signal the body that it is time to sleep. Melatonin levels typically rise in the evening and remain elevated throughout the night, then decrease in the early morning hours, promoting wakefulness.</p>`,
   },
   {
-    id: "GNS011",
+    id: 'GNS011',
     questionTag: `Which of the following is responsible for the production of antibodies?`,
     options: {
       optionA: `Red blood cells`,
@@ -3143,7 +3143,7 @@ export const generalScience = [
     feedback: `<p>Plasma cells, a type of white blood cell, are responsible for producing antibodies. Antibodies are proteins that help the immune system identify and neutralize foreign substances such as bacteria, viruses, and toxins. Plasma cells are derived from B lymphocytes (B cells) and play a crucial role in the immune response.</p>`,
   },
   {
-    id: "GNS010",
+    id: 'GNS010',
     questionTag: `What is the smallest unit of life?`,
     options: {
       optionA: `Cell`,
@@ -3163,7 +3163,7 @@ export const generalScience = [
     feedback: `<p>The cell is the smallest unit of life. It is the basic structural, functional, and biological unit of all living organisms. Cells can vary in size, shape, and function, but they all share common features such as a cell membrane, cytoplasm, and genetic material.</p>`,
   },
   {
-    id: "GNS009",
+    id: 'GNS009',
     questionTag: `Which organ filters waste products from the blood?`,
     options: {
       optionA: `Liver`,
@@ -3183,7 +3183,7 @@ export const generalScience = [
     feedback: `<p>The kidneys are responsible for filtering waste products, excess salts, and toxins from the blood to form urine. They also help regulate blood pressure, electrolyte balance, and red blood cell production.</p>`,
   },
   {
-    id: "GNS008",
+    id: 'GNS008',
     questionTag: `Which part of the brain controls balance and coordination?`,
     options: {
       optionA: `Cerebellum`,
@@ -3203,27 +3203,7 @@ export const generalScience = [
     feedback: `<p>The cerebellum, located at the back of the brain, is responsible for coordinating voluntary movements, balance, and posture. It receives information from the sensory systems, spinal cord, and other parts of the brain to regulate motor movements and ensure smooth, coordinated muscle activity.</p>`,
   },
   {
-    id: "GNS007",
-    questionTag: `Which blood type is considered the universal donor?`,
-    options: {
-      optionA: `Hypertension`,
-      optionB: `Hyperglycemia`,
-      optionC: `Hypoglycemia`,
-      optionD: `Hypotension`,
-    },
-    optionId: {
-      optionAId: `addgmgns007g`,
-      optionBId: `bd2jigns007g`,
-      optionCId: `cck0dgns007g`,
-      optionDId: `dj1l2gns007g`,
-    },
-    hasView: false,
-    choice: null,
-    answerId: `cck0d1c007g`,
-    feedback: `<p>Hypoglycemia is the term used to describe low blood sugar levels. It can occur in people with diabetes who take too much insulin or other blood sugar-lowering medications, or in individuals without diabetes due to certain medical conditions or excessive alcohol consumption. Symptoms of hypoglycemia include shakiness, dizziness, sweating, confusion, and fainting.</p>`,
-  },
-  {
-    id: "GNS006",
+    id: 'GNS006',
     questionTag: `Which blood type is considered the universal donor?`,
     options: {
       optionA: `A`,
@@ -3243,7 +3223,7 @@ export const generalScience = [
     feedback: `<p>Blood type O is considered the universal donor because it lacks A or B antigens on the surface of its red blood cells. This means that type O blood can be safely transfused into individuals with any other blood type without causing an adverse reaction.</p>`,
   },
   {
-    id: "GNS005",
+    id: 'GNS005',
     questionTag: `What is the normal resting heart rate for adults?`,
     options: {
       optionA: `30-50 beats per minute`,
@@ -3263,7 +3243,7 @@ export const generalScience = [
     feedback: `<p>The normal resting heart rate for adults typically ranges from 60 to 100 beats per minute. This range indicates the heart's beats per minute when a person is at rest and can vary based on factors like fitness level, age, and overall health.</p>`,
   },
   {
-    id: "GNS004",
+    id: 'GNS004',
     questionTag: `Which organ produces insulin in the human body?`,
     options: {
       optionA: `Pancreas`,
@@ -3283,7 +3263,7 @@ export const generalScience = [
     feedback: `<p>The pancreas produces insulin, a hormone that regulates blood sugar levels. Insulin helps cells absorb glucose from the blood, which is essential for energy production and maintaining healthy blood sugar levels.</p>`,
   },
   {
-    id: "GNS003",
+    id: 'GNS003',
     questionTag: `What is the primary function of the respiratory system?`,
     options: {
       optionA: `Digest food`,
@@ -3303,7 +3283,7 @@ export const generalScience = [
     feedback: `<p>The primary function of the respiratory system is to exchange gases. This involves taking in oxygen from the air we breathe and expelling carbon dioxide from the bloodstream. This gas exchange occurs in the alveoli of the lungs.</p>`,
   },
   {
-    id: "GNS002",
+    id: 'GNS002',
     questionTag: `Which organ is responsible for pumping blood throughout the body?`,
     options: {
       optionA: `Brain`,
@@ -3323,7 +3303,7 @@ export const generalScience = [
     feedback: `<p>The heart is the organ responsible for pumping blood throughout the body. It circulates blood through the blood vessels, supplying oxygen and nutrients to the tissues and removing carbon dioxide and other wastes.</p>`,
   },
   {
-    id: "GNS001",
+    id: 'GNS001',
     questionTag: `What is the largest organ in the human body?`,
     options: {
       optionA: `Heart`,
@@ -3346,7 +3326,7 @@ export const generalScience = [
 
 export const sports = [
   {
-    id: "SPRT032",
+    id: 'SPRT032',
     questionTag: `The Adidas Jabulani ball, used in the 2010 FIFA World Cup, was criticized for its performance in the tournament. In which country was the 2010 FIFA World Cup held?`,
     options: {
       optionA: `Brazil`,
@@ -3368,7 +3348,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT031",
+    id: 'SPRT031',
     questionTag: `Who won the FIFA Women’s World Cup in 2019?`,
     options: {
       optionA: `United States`,
@@ -3390,7 +3370,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT030",
+    id: 'SPRT030',
     questionTag: `In which sport can you score a touchdown?`,
     options: {
       optionA: `Baseball`,
@@ -3412,7 +3392,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT029",
+    id: 'SPRT029',
     questionTag: `Which country has won the most Davis Cup titles in tennis?`,
     options: {
       optionA: `United States`,
@@ -3434,7 +3414,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT028",
+    id: 'SPRT028',
     questionTag: `Which country holds the record for the most FIFA Men's World Cup titles, having won the tournament five times?`,
     options: {
       optionA: `Germany`,
@@ -3456,7 +3436,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT027",
+    id: 'SPRT027',
     questionTag: `Which team has won the most Stanley Cup championships in NHL history?`,
     options: {
       optionA: `Montreal Canadiens`,
@@ -3478,7 +3458,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT026",
+    id: 'SPRT026',
     questionTag: `What was the name of the balls used in the 1930 FIFA World Cup final between Uruguay and Argentina accordingly?`,
     options: {
       optionA: `Tango 12 & Tiento`,
@@ -3500,7 +3480,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT025",
+    id: 'SPRT025',
     questionTag: `Which FIFA World Cup match ball was famously used in the 2006 tournament in Germany, featuring 14 triangular panels?`,
     options: {
       optionA: `Tango 12`,
@@ -3522,7 +3502,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT024",
+    id: 'SPRT024',
     questionTag: `Which country won the 2010 FIFA World Cup hosted in South Africa?`,
     options: {
       optionA: `France`,
@@ -3544,7 +3524,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT023",
+    id: 'SPRT023',
     questionTag: `Which country won the UEFA Euro 2020 (held in 2021)?`,
     options: {
       optionA: `France`,
@@ -3566,7 +3546,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT022",
+    id: 'SPRT022',
     questionTag: `Who is the current reigning Wimbledon men’s singles champion?`,
     options: {
       optionA: `Novak Djokovic`,
@@ -3588,7 +3568,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT021",
+    id: 'SPRT021',
     questionTag: `Which team has won the most NBA championships?`,
     options: {
       optionA: `Los Angeles Lakers`,
@@ -3610,7 +3590,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT020",
+    id: 'SPRT020',
     questionTag: `Who is the all-time leading goal scorer in international men’s football?`,
     options: {
       optionA: `Lionel Messi`,
@@ -3632,7 +3612,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT019",
+    id: 'SPRT019',
     questionTag: `In which year did the first modern Olympic Games take place?`,
     options: {
       optionA: `1886`,
@@ -3654,7 +3634,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT018",
+    id: 'SPRT018',
     questionTag: `Who is the most recent winner of the Formula One World Drivers’ Championship?`,
     options: {
       optionA: `AustrLewis Hamiltonalia`,
@@ -3676,7 +3656,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT017",
+    id: 'SPRT017',
     questionTag: `Which country has won the most Olympic gold medals in the sport of swimming?`,
     options: {
       optionA: `Australia`,
@@ -3698,7 +3678,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT016",
+    id: 'SPRT016',
     questionTag: `In which city are the headquarters of the International Olympic Committee (IOC) located?`,
     options: {
       optionA: `Paris`,
@@ -3720,7 +3700,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT015",
+    id: 'SPRT015',
     questionTag: `
     Who was the first player to win the Ballon d'Or award?
     `,
@@ -3744,7 +3724,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT014",
+    id: 'SPRT014',
     questionTag: `Which club has won the most UEFA Champions League titles?`,
     options: {
       optionA: `Real Madrid`,
@@ -3766,7 +3746,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT013",
+    id: 'SPRT013',
     questionTag: `Who holds the record for the most home runs hit in a single MLB season?`,
     options: {
       optionA: `Babe Ruth`,
@@ -3788,7 +3768,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT012",
+    id: 'SPRT012',
     questionTag: `In which sport can you perform an ollie, kickflip, and heelflip?`,
     options: {
       optionA: `Skateboarding`,
@@ -3810,7 +3790,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT011",
+    id: 'SPRT011',
     questionTag: `Which country has won the most FIFA World Cup titles?`,
     options: {
       optionA: `Brazil`,
@@ -3832,7 +3812,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT010",
+    id: 'SPRT010',
     questionTag: `Which golfer has the most major championship wins?`,
     options: {
       optionA: `Tiger Woods`,
@@ -3854,7 +3834,7 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT009",
+    id: 'SPRT009',
     questionTag: `Which team has won the most Super Bowl titles in NFL history?`,
     options: {
       optionA: `New England Patriots`,
@@ -3876,9 +3856,9 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT008",
+    id: 'SPRT008',
     questionTag:
-      "Who is the fastest man in recorded history with a 100-meter dash time of 9.58 seconds?",
+      'Who is the fastest man in recorded history with a 100-meter dash time of 9.58 seconds?',
     options: {
       optionA: `Carl Lewis`,
       optionB: `Yohan Blake`,
@@ -3899,8 +3879,8 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT007",
-    questionTag: "Which country has won the most Rugby World Cup titles?",
+    id: 'SPRT007',
+    questionTag: 'Which country has won the most Rugby World Cup titles?',
     options: {
       optionA: `Australia`,
       optionB: `South Africa`,
@@ -3921,9 +3901,9 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT006",
+    id: 'SPRT006',
     questionTag:
-      "Which player has won the most Grand Slam titles in tennis history?",
+      'Which player has won the most Grand Slam titles in tennis history?',
     options: {
       optionA: `Roger Federer`,
       optionB: `Rafael Nadal`,
@@ -3944,9 +3924,9 @@ export const sports = [
     </p>`,
   },
   {
-    id: "SPRT005",
+    id: 'SPRT005',
     questionTag:
-      "Who is the most decorated Olympian of all time, with 28 medals?",
+      'Who is the most decorated Olympian of all time, with 28 medals?',
     options: {
       optionA: `Usain Bolt`,
       optionB: `Michael Phelps`,
@@ -3968,8 +3948,8 @@ export const sports = [
   },
 
   {
-    id: "SPRT004",
-    questionTag: "In which city were the 2016 Summer Olympics held?",
+    id: 'SPRT004',
+    questionTag: 'In which city were the 2016 Summer Olympics held?',
     options: {
       optionA: `Tokyo`,
       optionB: `London`,
@@ -3988,8 +3968,8 @@ export const sports = [
     feedback: `The 2016 Summer Olympics were held in Rio de Janeiro, Brazil. It was the first time the Olympics were hosted in South America. The event featured over 11,000 athletes from around the world competing in various sports.`,
   },
   {
-    id: "SPRT003",
-    questionTag: "Which country has won the most Olympic gold medals?",
+    id: 'SPRT003',
+    questionTag: 'Which country has won the most Olympic gold medals?',
     options: {
       optionA: `United States`,
       optionB: `Russia`,
@@ -4008,8 +3988,8 @@ export const sports = [
     feedback: `The United States has won the most Olympic gold medals. The U.S. has a long history of success in both the Summer and Winter Olympic Games, consistently leading the medal count in many editions of the Olympics. Their dominance spans a wide range of sports, from athletics and swimming to gymnastics and basketball.`,
   },
   {
-    id: "SPRT002",
-    questionTag: "Who is the all-time leading scorer in NBA history?",
+    id: 'SPRT002',
+    questionTag: 'Who is the all-time leading scorer in NBA history?',
     options: {
       optionA: `Michael Jordan`,
       optionB: `Kobe Bryant`,
@@ -4028,8 +4008,8 @@ export const sports = [
     feedback: `Kareem Abdul-Jabbar is the all-time leading scorer in NBA history, with a total of 38,387 points scored over his career. He played 20 seasons in the NBA, primarily with the Milwaukee Bucks and the Los Angeles Lakers. His signature skyhook shot was a key factor in his scoring success.`,
   },
   {
-    id: "SPRT001",
-    questionTag: "Which country won the FIFA World Cup in 2018?",
+    id: 'SPRT001',
+    questionTag: 'Which country won the FIFA World Cup in 2018?',
     options: {
       optionA: `Brazil`,
       optionB: `Germany`,
@@ -4051,8 +4031,8 @@ export const sports = [
 
 export const generalQuestion = [
   {
-    id: "009",
-    questionTag: "What is the capital of France?",
+    id: '009',
+    questionTag: 'What is the capital of France?',
     options: {
       optionA: `Berlin`,
       optionB: `Madrid`,
@@ -4071,7 +4051,7 @@ export const generalQuestion = [
     feedback: `Paris is the capital and most populous city of France.`,
   },
   {
-    id: "008",
+    id: '008',
     questionTag:
       "In the context of electromagnetism, what does Faraday's Law of Induction state?",
     options: {
@@ -4092,7 +4072,7 @@ export const generalQuestion = [
     feedback: `Faraday's Law of Induction states that a changing magnetic field within a closed loop induces an electromotive force (emf) in the wire, generating an electric current.`,
   },
   {
-    id: "007",
+    id: '007',
     questionTag: "What color is polar bear's skin?",
     options: {
       optionA: `White`,
@@ -4112,8 +4092,8 @@ export const generalQuestion = [
     feedback: `Polar bears' skin is actually black! Despite their appearance, their fur is transparent and hollow, which helps to scatter and reflect sunlight and give them their white appearance. But underneath all that fur, their skin is actually black.`,
   },
   {
-    id: "006",
-    questionTag: "How many colors are in Nigeria flag?",
+    id: '006',
+    questionTag: 'How many colors are in Nigeria flag?',
     options: {
       optionA: `1`,
       optionB: `2`,
@@ -4132,9 +4112,9 @@ export const generalQuestion = [
     feedback: `The Nigeria flag has two colors: green and white.`,
   },
   {
-    id: "005",
+    id: '005',
     questionTag:
-      "Some months have 31 days. Some have 30 days. How many have 28days?",
+      'Some months have 31 days. Some have 30 days. How many have 28days?',
     options: {
       optionA: `11`,
       optionB: `2`,
@@ -4153,9 +4133,9 @@ export const generalQuestion = [
     feedback: `All of them! Every month has at least 28 days. The correct answer is 12.`,
   },
   {
-    id: "004",
+    id: '004',
     questionTag:
-      "How many Infinity Stones are there in Marvel Cinematic Universe?",
+      'How many Infinity Stones are there in Marvel Cinematic Universe?',
     options: {
       optionA: `5`,
       optionB: `4`,
@@ -4174,7 +4154,7 @@ export const generalQuestion = [
     feedback: `There are Six infinity stones in the Marvel Cinematic Universe, which are Space Stone(Blue), Mind Stone(Yellow), Reality Stone(Red), Power Stone(Purple),Time Stone(Green),Soul Stone(Orange)`,
   },
   {
-    id: "003",
+    id: '003',
     questionTag: "What's the name of world's Largest Music streaming service?",
     options: {
       optionA: `Apple Music`,
@@ -4194,8 +4174,8 @@ export const generalQuestion = [
     feedback: `As of now, Spotify is the world's largest music streaming service. It has the highest number of active users and subscribers globally, surpassing other major services like Apple Music, Amazon Music, and YouTube Music.`,
   },
   {
-    id: "002",
-    questionTag: "Which of these superheroes is the richest?",
+    id: '002',
+    questionTag: 'Which of these superheroes is the richest?',
     options: {
       optionA: `T'Challa`,
       optionB: `Lex Luthor`,
@@ -4214,8 +4194,8 @@ export const generalQuestion = [
     feedback: `The richest superhero is typically considered to be Black Panther (T'Challa), the king of the fictional African nation of Wakanda. Black Panther's wealth comes from Wakanda's vast reserves of Vibranium, a rare and powerful metal. His net worth is estimated to be in the hundreds of billions or even trillions of dollars.`,
   },
   {
-    id: "001",
-    questionTag: "Which country is known as the Hexagon ?",
+    id: '001',
+    questionTag: 'Which country is known as the Hexagon ?',
     options: {
       optionA: `Spain`,
       optionB: `France`,
