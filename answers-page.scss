@@ -12,8 +12,12 @@
     gap: 2em;
   }
 
-  .quiz-name{
+  .quiz-name {
     margin-bottom: 1em;
+  }
+
+  @media (min-width: 600px) {
+    width: 600px;
   }
 }
 
@@ -22,7 +26,7 @@
   padding: 1em;
   border-radius: 10px;
 
-  .question-number{
+  .question-number {
     margin-bottom: 1em;
   }
 }

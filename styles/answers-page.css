@@ -12,6 +12,11 @@
 .answers-container .quiz-name {
   margin-bottom: 1em;
 }
+@media (min-width: 600px) {
+  .answers-container {
+    width: 600px;
+  }
+}
 
 .question-container {
   border: 3px solid #004666;
