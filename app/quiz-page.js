@@ -96,7 +96,6 @@ function renderQuestion() {
     </div>
   `;
   if (currentQuestionIndex === 0) {
-    // backBtn.innerHTML = 'Submit';
     backBtn.classList.add('hidden');
   } else {
     backBtn.classList.remove('hidden');
@@ -185,7 +184,7 @@ function renderResult() {
       <div class="certificate-div">
         <div class="certificate-frame">
           <img
-            src="images/certificate-images/—Pngtree—luxury golden rectangle corner certificate_9168212.png"
+            src="images/certificate-images/certificate.webp"
             alt="certificate png"
           />
           <div class="detail">
@@ -198,7 +197,7 @@ function renderResult() {
             <p>${date}</p>
           </div>
           <div class="medal">
-            <img src="images/certificate-images/medal.png" alt="medal image" />
+            <img src="images/certificate-images/medal.webp" alt="medal image" />
           </div>
         </div>
       </div>
