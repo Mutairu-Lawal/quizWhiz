@@ -230,8 +230,9 @@ img {
   letter-spacing: 2px;
   font-family: "UnifrakturCook", Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 16px;
 }
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .result-container .certificate-frame .detail .certificate-heading {
     font-size: 24px;
   }
@@ -239,14 +240,14 @@ img {
 .result-container .certificate-frame .detail .user-name {
   font-size: 26px;
 }
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .result-container .certificate-frame .subject-title {
     font-size: 22px;
   }
 }
 .result-container .certificate-frame .medal {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   border-radius: 50px;
   position: absolute;
   bottom: 20px;
@@ -254,6 +255,8 @@ img {
 }
 @media (min-width: 400px) {
   .result-container .certificate-frame .medal {
+    width: 28px;
+    height: 28px;
     bottom: 26px;
     right: 80px;
   }
