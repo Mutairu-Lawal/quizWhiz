@@ -41,18 +41,42 @@ a {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
+}
+
+/* Aspect ratio classes */
+.aspect-ratio-hero {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.aspect-ratio-content {
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
+
+.aspect-ratio-circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aspect-ratio-logo {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.aspect-ratio-avatar {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: auto;
 }
 
 .text-brand:hover {
   color: #004666;
-}
-
-.c-img-fluid {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .text-brand {
@@ -128,8 +152,8 @@ header .nav-link {
 main #user-story .c-circle {
   margin: auto;
   width: 150px;
-  height: 150px;
-  border-radius: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
   margin-bottom: 4px;
   overflow: hidden;
 }
