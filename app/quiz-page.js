@@ -392,6 +392,7 @@ function resetUserChoice() {
     correct: [],
     unanswered: [],
     Question: [...questions],
+    ['new-subject']: subject,
   };
 
   saveUserDetails();
