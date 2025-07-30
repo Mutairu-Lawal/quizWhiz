@@ -3179,7 +3179,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `bd2jipb009i`,
+    answerId: `bd2jigns009i`,
     feedback: `<p>The kidneys are responsible for filtering waste products, excess salts, and toxins from the blood to form urine. They also help regulate blood pressure, electrolyte balance, and red blood cell production.</p>`,
   },
   {
@@ -3199,7 +3199,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `addgmba008h`,
+    answerId: `addgmgns008h`,
     feedback: `<p>The cerebellum, located at the back of the brain, is responsible for coordinating voluntary movements, balance, and posture. It receives information from the sensory systems, spinal cord, and other parts of the brain to regulate motor movements and ensure smooth, coordinated muscle activity.</p>`,
   },
   {
@@ -3219,7 +3219,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `dj1l28p006f`,
+    answerId: `dj1l2gns006f`,
     feedback: `<p>Blood type O is considered the universal donor because it lacks A or B antigens on the surface of its red blood cells. This means that type O blood can be safely transfused into individuals with any other blood type without causing an adverse reaction.</p>`,
   },
   {
@@ -3259,12 +3259,12 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `addgmba004d`,
+    answerId: `addgmgns004d`,
     feedback: `<p>The pancreas produces insulin, a hormone that regulates blood sugar levels. Insulin helps cells absorb glucose from the blood, which is essential for energy production and maintaining healthy blood sugar levels.</p>`,
   },
   {
     id: 'GNS003',
-    questionTag: `What is the primary function of the respiratory system?`,
+    questionTag: `What is the primary function of the respiratory system ?`,
     options: {
       optionA: `Digest food`,
       optionB: `Circulate blood`,
@@ -3279,7 +3279,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `cck0d1c003c`,
+    answerId: `cck0dgns003c`,
     feedback: `<p>The primary function of the respiratory system is to exchange gases. This involves taking in oxygen from the air we breathe and expelling carbon dioxide from the bloodstream. This gas exchange occurs in the alveoli of the lungs.</p>`,
   },
   {
@@ -3299,7 +3299,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `cck0d1c002b`,
+    answerId: `cck0dgns002b`,
     feedback: `<p>The heart is the organ responsible for pumping blood throughout the body. It circulates blood through the blood vessels, supplying oxygen and nutrients to the tissues and removing carbon dioxide and other wastes.</p>`,
   },
   {
@@ -3319,7 +3319,7 @@ export const generalScience = [
     },
     hasView: false,
     choice: null,
-    answerId: `cck0d1c001a`,
+    answerId: `cck0dgns001a`,
     feedback: `<p>The skin is the largest organ in the human body. It covers the entire body and serves as a protective barrier against the external environment, helps regulate body temperature, and enables the sense of touch.</p>`,
   },
 ];
@@ -4222,3 +4222,23 @@ export const defaultQuestions = [
   ...generalQuestion,
   ...sports,
 ];
+
+// LOOPS TO ALL QUESTION OPTIONS FOR CORRESPONDING
+function getAnswersError(questionsArry) {
+  return questionsArry.filter((q) => {
+    const answerId = q.answerId;
+
+    let isMatch = false;
+
+    Object.keys(q.optionId).forEach((key) => {
+      const option = q.optionId[key];
+      if (answerId == option) {
+        return (isMatch = true);
+      }
+    });
+
+    if (!isMatch) {
+      return q;
+    }
+  });
+}

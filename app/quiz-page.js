@@ -396,13 +396,3 @@ function resetUserChoice() {
 
   saveUserDetails();
 }
-
-// let sameQuestion = [];
-
-// for (let i = 0; i < defaultQuestions.length; i++) {
-//   const currentQuestion = defaultQuestions[i].questionTag;
-//   let count = 0;
-//   defaultQuestions.forEach((q) => {
-//     // q.questionTag === currentQuestion && (count += 1);
-//   });
-// }
